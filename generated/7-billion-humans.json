@@ -1,0 +1,44 @@
+{
+ "name": "7 Billion Humans",
+ "steamID": 792100,
+ "slug": "7-billion-humans",
+ "website": "http://tomorrowcorporation.com/7billionhumans",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Aug 23, 2018"
+ },
+ "image": "images/7-billion-humans.jpg",
+ "german_content": {
+  "short_description": "Automatisieren Sie Schwärme von Büroarbeitern, um Aufgaben in Ihrem eigenen Parallelcomputer aus Menschen zu lösen. Ein spannender Nachfolger des preisgekrönten Spiels Human Resource Machine. Jetzt mit mehr Menschen!",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam-Sammelkarten",
+   "Steam Cloud",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Indie",
+   "Simulationen"
+  ]
+ },
+ "english_content": {
+  "short_description": "Automate swarms of office workers to solve puzzles inside your very own parallel computer made of people. A thrilling followup to the award winning Human Resource Machine. Now with more humans!",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Trading Cards",
+   "Steam Cloud",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation"
+  ]
+ }
+}

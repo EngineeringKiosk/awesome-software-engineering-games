@@ -1,0 +1,46 @@
+{
+ "name": "Human Resource Machine",
+ "steamID": 375820,
+ "slug": "human-resource-machine",
+ "website": "http://tomorrowcorporation.com/humanresourcemachine",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Oct 15, 2015"
+ },
+ "image": "images/human-resource-machine.jpg",
+ "german_content": {
+  "short_description": "Programmieren Sie Ihren putzigen Büroarbeiter um Rätsel zu lösen. Seien Sie ein/e gute/r Angestellte/r! Die Maschinen kommen...und wollen IHREN Job!Vom Designer von World of Goo und dem Team hinter Little Inferno.",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam-Sammelkarten",
+   "Steam Cloud",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Gelegenheitsspiele",
+   "Indie",
+   "Simulationen"
+  ]
+ },
+ "english_content": {
+  "short_description": "Program little office workers to solve puzzles. Be a good employee! The machines are coming... for your job. From the creators of World of Goo and Little Inferno.",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Trading Cards",
+   "Steam Cloud",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation"
+  ]
+ }
+}

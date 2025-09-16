@@ -4,7 +4,13 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (2 games)
+* [Games](#games) (8 games)
+  * [7 Billion Humans](#7-billion-humans)
+  * [Factorio](#factorio)
+  * [Human Resource Machine](#human-resource-machine)
+  * [Satisfactory](#satisfactory)
+  * [shapez](#shapez)
+  * [shapez 2](#shapez-2)
   * [The Farmer Was Replaced](#the-farmer-was-replaced)
   * [TIS-100](#tis-100)
 * [How to contribute](#how-to-contribute)
@@ -12,6 +18,78 @@ A curated list of games for software engineers that have that certain something 
 
 ## Games
 
+
+<h3 id="7-billion-humans">7 Billion Humans</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/7-billion-humans.jpg" />
+
+Automate swarms of office workers to solve puzzles inside your very own parallel computer made of people. A thrilling followup to the award winning Human Resource Machine. Now with more humans!
+* Genre: Indie, Simulation
+* Release: Thursday, 23 August 2018
+* [7 Billion Humans Website](http://tomorrowcorporation.com/7billionhumans)
+* [7 Billion Humans @ Steam](https://store.steampowered.com/app/792100/)
+
+----
+
+<h3 id="factorio">Factorio</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/factorio.jpg" />
+
+Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don&#39;t really like you.
+* Genre: Casual, Indie, Simulation, Strategy
+* Release: Friday, 14 August 2020
+* [Factorio Website](https://www.factorio.com)
+* [Factorio @ Steam](https://store.steampowered.com/app/427520/)
+
+----
+
+<h3 id="human-resource-machine">Human Resource Machine</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/human-resource-machine.jpg" />
+
+Program little office workers to solve puzzles. Be a good employee! The machines are coming... for your job. From the creators of World of Goo and Little Inferno.
+* Genre: Casual, Indie, Simulation
+* Release: Thursday, 15 October 2015
+* [Human Resource Machine Website](http://tomorrowcorporation.com/humanresourcemachine)
+* [Human Resource Machine @ Steam](https://store.steampowered.com/app/375820/)
+
+----
+
+<h3 id="satisfactory">Satisfactory</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/satisfactory.jpg" />
+
+Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!
+* Genre: Adventure, Indie, Simulation, Strategy
+* Release: Tuesday, 10 September 2024
+* [Satisfactory Website](https://www.satisfactorygame.com/)
+* [Satisfactory @ Steam](https://store.steampowered.com/app/526870/)
+
+----
+
+<h3 id="shapez">shapez</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/shapez.jpg" />
+
+shapez is an easy-going, minimalistic factory building game about the automation of shapes through extraction and satisfying production lines. Adapt to increasingly complex shapes and grow your factory across an infinitely expanding map. Your only limitation is your creativity!
+* Genre: Casual, Indie, Simulation, Strategy
+* Release: Sunday, 07 June 2020
+* [shapez Website](https://shapez.io)
+* [shapez @ Steam](https://store.steampowered.com/app/1318690/)
+
+----
+
+<h3 id="shapez-2">shapez 2</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/shapez-2.jpg" />
+
+Dive into a factory-building game with the focus on just that – building huge space factories! Construct sprawling multi-level factories and satisfying production lines without limits. Tackle increasingly complex automation challenges at your own pace – you won’t have to worry about enemies.
+* Genre: Casual, Indie, Simulation, Strategy, Early Access
+* Release: Thursday, 15 August 2024
+* [shapez 2 Website](https://tobspr.io)
+* [shapez 2 @ Steam](https://store.steampowered.com/app/2162800/)
+
+----
 
 <h3 id="the-farmer-was-replaced">The Farmer Was Replaced</h3>
 

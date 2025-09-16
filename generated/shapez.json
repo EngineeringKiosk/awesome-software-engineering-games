@@ -1,0 +1,64 @@
+{
+ "name": "shapez",
+ "steamID": 1318690,
+ "slug": "shapez",
+ "website": "https://shapez.io",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Jun 7, 2020"
+ },
+ "image": "images/shapez.jpg",
+ "german_content": {
+  "short_description": "shapez ist ein entspanntes, minimalistisches Fabrikbauspiel, bei dem du durch Extraktion und durchdachte Fertigungsstraßen die Herstellung von Formen automatisierst. Baue immer komplexere Formen und erweitere deine Fabrik bis ins Endlose – lass deiner Kreativität freien Lauf!",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Anpassbare Textgröße",
+   "Kamerakomfort",
+   "Farbalternativen",
+   "Benutzerdefinierte Lautstärkeregelung",
+   "Nur Tastatur",
+   "Nur Maus",
+   "Spielbar ohne zeitgesteuerte Eingabe",
+   "Jederzeit speichern",
+   "Optionen für Untertitel",
+   "Steam Cloud",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Gelegenheitsspiele",
+   "Indie",
+   "Simulationen",
+   "Strategie"
+  ]
+ },
+ "english_content": {
+  "short_description": "shapez is an easy-going, minimalistic factory building game about the automation of shapes through extraction and satisfying production lines. Adapt to increasingly complex shapes and grow your factory across an infinitely expanding map. Your only limitation is your creativity!",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Adjustable Text Size",
+   "Camera Comfort",
+   "Color Alternatives",
+   "Custom Volume Controls",
+   "Keyboard Only Option",
+   "Mouse Only Option",
+   "Playable without Timed Input",
+   "Save Anytime",
+   "Subtitle Options",
+   "Steam Cloud",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Casual",
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ]
+ }
+}
