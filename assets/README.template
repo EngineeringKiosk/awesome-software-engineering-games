@@ -1,0 +1,34 @@
+# Awesome Games for Software Engineers
+
+A curated list of games that fits the style and thinking of Softwae Engineers.
+
+## Table of Contents
+
+* [Games](#games) ({{ len . }} games)
+  {{- range $game := . }}
+  * [{{ $game.Name }}](#{{ $game.Slug }})
+  {{- end }}
+* [How to contribute](#how-to-contribute)
+</ul>
+
+## Games
+
+{{ range $game := . }}
+<h3 id="{{ $game.Slug }}">{{ $game.Name }}</h3>
+{{ if $game.Image }}
+<img align="right" width="215" height="215" src="./generated/{{ $game.Image }}" />
+{{end}}
+{{ $game.EnglishContent.ShortDescription }}
+* Genre: {{ $game.GenresAsList }}
+* Release: {{ $game.GetReleaseDate }}
+* [{{ $game.Name }} Website]({{ $game.Website }}){{ if $game.SteamID }}
+* [{{ $game.Name }} @ Steam]({{ $game.SteamID }}){{- end }}
+
+----
+{{ end }}
+
+## How to contribute
+
+If you want to 
+* add a new game to the list, check out our [Contribution Guide](/CONTRIBUTING.md)
+* modify the tooling and structure, check out our [Development Guide](/DEVELOPMENT.md)
