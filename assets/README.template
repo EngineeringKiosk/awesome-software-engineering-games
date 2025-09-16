@@ -22,7 +22,7 @@ A curated list of games that fits the style and thinking of Softwae Engineers.
 * Genre: {{ $game.GenresAsList }}
 * Release: {{ $game.GetReleaseDate }}
 * [{{ $game.Name }} Website]({{ $game.Website }}){{ if $game.SteamID }}
-* [{{ $game.Name }} @ Steam]({{ $game.SteamID }}){{- end }}
+* [{{ $game.Name }} @ Steam](https://store.steampowered.com/app/{{ $game.SteamID }}/){{- end }}
 
 ----
 {{ end }}
