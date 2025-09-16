@@ -18,7 +18,7 @@ A curated list of games that fits the style and thinking of Softwae Engineers.
 
 Program and optimize a drone to automate a farm and watch it do the work for you. Collect resources to unlock better technology and become the most efficient farmer in the world. Improve your problem solving and coding skills.
 * Genre: Casual, Indie, Simulation, Strategy, Early Access
-* Release: Friday, 10 February 2023
+* Release: 
 * [The Farmer Was Replaced Website](https://www.metaroot.ch/press-kit/the-farmer-was-replaced)
 * [The Farmer Was Replaced @ Steam](2060160)
 
