@@ -1,6 +1,6 @@
 # Awesome Games for Software Engineers
 
-A curated list of games that fits the style and thinking of Softwae Engineers.
+A curated list of games for software engineers that have that certain something extra 👾 🎮
 
 ## Table of Contents
 
