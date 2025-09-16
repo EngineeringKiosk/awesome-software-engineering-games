@@ -40,7 +40,7 @@ type ReleaseDate struct {
 }
 
 func (g GameInformation) GetReleaseDate() string {
-	t, err := time.Parse("2 Jan, 2006", g.ReleaseDate.Date)
+	t, err := time.Parse("Jan 2, 2006", g.ReleaseDate.Date)
 	if err != nil {
 		return ""
 	}
