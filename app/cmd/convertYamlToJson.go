@@ -1,0 +1,137 @@
+package cmd
+
+import (
+	"encoding/json"
+	"log"
+	"os"
+	"path"
+	"path/filepath"
+
+	"github.com/gosimple/slug"
+	"github.com/spf13/cobra"
+	"gopkg.in/yaml.v3"
+
+	"github.com/EngineeringKiosk/awesome-software-engineering-games/io"
+)
+
+// convertYamlToJsonCmd represents the convertYamlToJson command
+var convertYamlToJsonCmd = &cobra.Command{
+	Use:   "convertYamlToJson",
+	Short: "Converts Game YAML files into JSON files",
+	Long: `The YAML representation of the basic game info is more for humans.
+For machines we have a JSON format with more information about the game available.
+
+This command converts the basic YAML information into JSON format.`,
+	RunE: cmdConvertYamlToJson,
+}
+
+func init() {
+	rootCmd.AddCommand(convertYamlToJsonCmd)
+
+	convertYamlToJsonCmd.Flags().String("yaml-directory", "", "Directory on where to find the yaml files")
+	convertYamlToJsonCmd.Flags().String("json-directory", "", "Directory on where to store the json files")
+
+	convertYamlToJsonCmd.MarkFlagRequired("yaml-directory")
+	convertYamlToJsonCmd.MarkFlagRequired("json-directory")
+	convertYamlToJsonCmd.MarkFlagsRequiredTogether("yaml-directory", "json-directory")
+}
+
+func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
+	yamlDir, err := cmd.Flags().GetString("yaml-directory")
+	if err != nil {
+		return err
+	}
+
+	jsonDir, err := cmd.Flags().GetString("json-directory")
+	if err != nil {
+		return err
+	}
+
+	log.Printf("Reading files with extension %s from directory %s", io.YAMLExtension, yamlDir)
+	yamlFiles, err := io.GetAllFilesFromDirectory(yamlDir, io.YAMLExtension)
+	if err != nil {
+		return err
+	}
+	log.Printf("%d files found with extension %s in directory %s", len(yamlFiles), io.YAMLExtension, yamlDir)
+
+	log.Printf("Reading files with extension %s from directory %s", io.JSONExtension, jsonDir)
+	jsonFiles, err := io.GetAllFilesFromDirectory(jsonDir, io.JSONExtension)
+	if err != nil {
+		return err
+	}
+	log.Printf("%d files found with extension %s in directory %s", len(jsonFiles), io.JSONExtension, jsonDir)
+
+	// Process every YAML file found and dump it into a JSON
+	// file with the same name.
+	// If the JSON file already exists, merge it and only update the data
+	// that is available in the YAML file.
+	for _, f := range yamlFiles {
+		absYamlFilePath := filepath.Join(yamlDir, f.Name())
+		log.Printf("Processing file %s", absYamlFilePath)
+		yamlFileContent, err := os.ReadFile(absYamlFilePath)
+		if err != nil {
+			return err
+		}
+
+		gameInfo := &GameInformation{}
+		err = yaml.Unmarshal(yamlFileContent, gameInfo)
+		if err != nil {
+			return err
+		}
+
+		currentFileExtension := path.Ext(f.Name())
+		jsonFileName := f.Name()[0:len(f.Name())-len(currentFileExtension)] + io.JSONExtension
+		absJsonFilePath := filepath.Join(jsonDir, jsonFileName)
+
+		log.Printf("Converting %s to %s", absYamlFilePath, absJsonFilePath)
+
+		// Check if we have a related json file already
+		if _, ok := jsonFiles[jsonFileName]; ok {
+			// JSON file exists.
+			// Read JSON file into Game Information structure
+			// and overwrite yaml information
+			jsonFileContent, err := os.ReadFile(absJsonFilePath)
+			if err != nil {
+				return err
+			}
+
+			gameJsonInfo := &GameInformation{}
+			err = json.Unmarshal(jsonFileContent, gameJsonInfo)
+			if err != nil {
+				return err
+			}
+
+			gameInfo = mergeGameInformation(gameInfo, gameJsonInfo)
+		}
+
+		// Add generated fields
+		// TODO Maybe this should be an own command
+		gameInfo.Slug = slug.Make(gameInfo.Name)
+
+		// Dump data into JSON file
+		log.Printf("Write %s to disk ...", absJsonFilePath)
+		err = io.WriteJSONFile(absJsonFilePath, gameInfo)
+		if err != nil {
+			return err
+		}
+		log.Printf("Write %s to disk ... successful", absJsonFilePath)
+	}
+
+	log.Printf("Converting of YAML to JSON ... successful")
+	return nil
+}
+
+// mergeGameInformation will overwrite a fixed set of
+// fields from source into target.
+func mergeGameInformation(source, target *GameInformation) *GameInformation {
+	// Those fields are all fields where
+	// the yaml file is the source of truth
+	// If the yaml structure will be extended
+	//
+	// This can be implemented via the reflect package,
+	// but for now (and the first prototype) it is good enough.
+	target.Name = source.Name
+	target.SteamID = source.SteamID
+
+	return target
+}
