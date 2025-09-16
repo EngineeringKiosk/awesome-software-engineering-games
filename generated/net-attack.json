@@ -1,0 +1,42 @@
+{
+ "name": "Net.Attack()",
+ "steamID": 3047370,
+ "slug": "net-attack",
+ "website": "https://www.byterockers.games/",
+ "platforms": {
+  "windows": true,
+  "mac": false,
+  "linux": false
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Jun 19, 2025"
+ },
+ "image": "images/net-attack.jpg",
+ "german_content": {
+  "short_description": "Entfessel deine Hackerskills und programmiere dir deinen Weg zum Sieg in Net.Attack(), einem dynamischen Top-Down Survivor-like Roguelite. Erstelle und verbessere deine Angriffe ohne Programmierkenntnisse über ein simples Drag-and-Drop System mit vielen verschiedenen Möglichkeiten.",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Early Access"
+  ]
+ },
+ "english_content": {
+  "short_description": "Unleash your inner hacker skills and code your way to victory in a game where complex algorithms and intuitive gameplay collide.Net.Attack() is a dynamic Top-Down Survivors-like Roguelite where you create your own abilities using programming.",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Action",
+   "Indie",
+   "Early Access"
+  ]
+ }
+}

@@ -4,10 +4,11 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (8 games)
+* [Games](#games) (9 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
+  * [Net.Attack()](#net-attack)
   * [Satisfactory](#satisfactory)
   * [shapez](#shapez)
   * [shapez 2](#shapez-2)
@@ -52,6 +53,18 @@ Program little office workers to solve puzzles. Be a good employee! The machines
 * Release: Thursday, 15 October 2015
 * [Human Resource Machine Website](http://tomorrowcorporation.com/humanresourcemachine)
 * [Human Resource Machine @ Steam](https://store.steampowered.com/app/375820/)
+
+----
+
+<h3 id="net-attack">Net.Attack()</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/net-attack.jpg" />
+
+Unleash your inner hacker skills and code your way to victory in a game where complex algorithms and intuitive gameplay collide.Net.Attack() is a dynamic Top-Down Survivors-like Roguelite where you create your own abilities using programming.
+* Genre: Action, Indie, Early Access
+* Release: Thursday, 19 June 2025
+* [Net.Attack() Website](https://www.byterockers.games/)
+* [Net.Attack() @ Steam](https://store.steampowered.com/app/3047370/)
 
 ----
 
