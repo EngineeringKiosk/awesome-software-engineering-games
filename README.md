@@ -4,8 +4,9 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (13 games)
+* [Games](#games) (15 games)
   * [7 Billion Humans](#7-billion-humans)
+  * [Artifacts](#artifacts)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
   * [Mindustry](#mindustry)
@@ -16,6 +17,7 @@ A curated list of games for software engineers that have that certain something 
   * [shapez](#shapez)
   * [shapez 2](#shapez-2)
   * [Sid Meier&#39;s Civilization IV](#sid-meiers-civilization-iv)
+  * [SpaceTraders](#spacetraders)
   * [The Farmer Was Replaced](#the-farmer-was-replaced)
   * [TIS-100](#tis-100)
 * [How to contribute](#how-to-contribute)
@@ -34,6 +36,16 @@ Automate swarms of office workers to solve puzzles inside your very own parallel
 * Release: 
 * [7 Billion Humans Website](http://tomorrowcorporation.com/7billionhumans)
 * [7 Billion Humans @ Steam](https://store.steampowered.com/app/792100/)
+
+----
+
+<h3 id="artifacts">Artifacts</h3>
+
+
+* Genre: 
+* Available for 
+* Release: 
+* [Artifacts Website](https://www.artifactsmmo.com/)
 
 ----
 
@@ -168,6 +180,17 @@ With over 6 million units sold and unprecedented critical acclaim from fans and 
 * Release: 
 * [Sid Meier&#39;s Civilization IV Website](http://www.2kgames.com/civ4/home.htm)
 * [Sid Meier&#39;s Civilization IV @ Steam](https://store.steampowered.com/app/3900/)
+
+----
+
+<h3 id="spacetraders">SpaceTraders</h3>
+
+
+* Genre: 
+* Available for 
+* Release: 
+* [SpaceTraders Website](https://spacetraders.io/)
+* [SpaceTraders @ Source Code Repository](https://github.com/SpaceTradersAPI/api-docs)
 
 ----
 

@@ -1,0 +1,18 @@
+{
+ "name": "SpaceTraders",
+ "steamID": 0,
+ "slug": "spacetraders",
+ "repository": "https://github.com/SpaceTradersAPI/api-docs",
+ "programmable": true,
+ "website": "https://spacetraders.io/",
+ "platforms": {
+  "windows": false,
+  "mac": false,
+  "linux": false
+ },
+ "release_date": {
+  "coming_soon": false
+ },
+ "german_content": {},
+ "english_content": {}
+}

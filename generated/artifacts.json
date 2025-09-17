@@ -1,0 +1,17 @@
+{
+ "name": "Artifacts",
+ "steamID": 0,
+ "slug": "artifacts",
+ "programmable": true,
+ "website": "https://www.artifactsmmo.com/",
+ "platforms": {
+  "windows": false,
+  "mac": false,
+  "linux": false
+ },
+ "release_date": {
+  "coming_soon": false
+ },
+ "german_content": {},
+ "english_content": {}
+}
