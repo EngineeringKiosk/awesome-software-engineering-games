@@ -69,7 +69,8 @@ An open-ended factory management game with RTS and tower defense elements.
 * Genre: Strategy
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="13"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="13"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="13"/>
 * Release: Thursday, 26 September 2019
-* [Mindustry Website]()
+
+* [Mindustry @ Source Code Repository](https://github.com/Anuken/Mindustry)
 * [Mindustry @ Steam](https://store.steampowered.com/app/1127400/)
 
 ----
@@ -109,6 +110,7 @@ shapez is an easy-going, minimalistic factory building game about the automation
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="13"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="13"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="13"/>
 * Release: Sunday, 07 June 2020
 * [shapez Website](https://shapez.io)
+* [shapez @ Source Code Repository](https://github.com/tobspr-games/shapez.io)
 * [shapez @ Steam](https://store.steampowered.com/app/1318690/)
 
 ----

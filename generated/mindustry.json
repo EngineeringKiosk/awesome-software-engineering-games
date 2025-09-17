@@ -16,22 +16,22 @@
  "german_content": {
   "short_description": "An open-ended factory management game with RTS and tower defense elements.",
   "categories": [
-   "Single-player",
-   "Multi-player",
+   "Einzelspieler",
+   "Mehrspieler",
    "PvP",
-   "Online PvP",
-   "Co-op",
-   "Online Co-op",
-   "Cross-Platform Multiplayer",
-   "Steam Achievements",
+   "Online-PvP",
+   "Koop",
+   "Online-Koop",
+   "Plattformübergreifender Mehrspieler",
+   "Steam-Errungenschaften",
    "Steam Workshop",
    "Steam Cloud",
-   "Stats",
-   "Includes level editor",
-   "Family Sharing"
+   "Statistiken",
+   "Enthält Level-Editor",
+   "Familienbibliothek"
   ],
   "genres": [
-   "Strategy"
+   "Strategie"
   ]
  },
  "english_content": {
