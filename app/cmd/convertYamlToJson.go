@@ -124,12 +124,14 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 // mergeGameInformation will overwrite a fixed set of
 // fields from source into target.
 func mergeGameInformation(source, target *GameInformation) *GameInformation {
-	// Those fields are all fields where
-	// the yaml file is the source of truth
-	// If the yaml structure will be extended
+	// Those fields are all fields where the yaml file is the source of truth.
+	// If the yaml structure will be changesd, this function needs to be updated as well.
 	//
-	// This can be implemented via the reflect package,
-	// but for now (and the first prototype) it is good enough.
+	// Maybe there is a smarter implementation of it (reflection?) but for now
+	// this is good enough.
+	//
+	// If you change the code below by adding / removing fields,
+	// please update CONTRIBUTING.md as well.
 	target.Name = source.Name
 	target.SteamID = source.SteamID
 
