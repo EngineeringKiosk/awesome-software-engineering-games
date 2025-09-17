@@ -90,10 +90,10 @@ Satisfactory is a first-person open-world factory building game with a dash of e
 
 <img align="right" width="215" height="215" src="./generated/images/shapez.jpg" />
 
-《异形工厂》是一款轻松自在的简约风工厂建造游戏，积极开采资源、用心搭设产线、努力提升效率，尽情享受自动化生产各种特异形状的奇妙乐趣！在这无限的地图上尽情发挥你的工厂建设才华，创造愈发巧夺天工的奇妙形状！创造力才是你唯一的束缚所在！
-* Genre: 休闲, 独立, 模拟, 策略
+shapez is an easy-going, minimalistic factory building game about the automation of shapes through extraction and satisfying production lines. Adapt to increasingly complex shapes and grow your factory across an infinitely expanding map. Your only limitation is your creativity!
+* Genre: Casual, Indie, Simulation, Strategy
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="13"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="13"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="13"/>
-* Release: 
+* Release: Sunday, 07 June 2020
 * [shapez Website](https://shapez.io)
 * [shapez @ Steam](https://store.steampowered.com/app/1318690/)
 
