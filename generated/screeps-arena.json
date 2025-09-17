@@ -1,0 +1,50 @@
+{
+ "name": "Screeps: Arena",
+ "steamID": 1137320,
+ "slug": "screeps-arena",
+ "repository": "https://github.com/screepers/screeps-arena-javascript-starter",
+ "programmable": true,
+ "website": "https://screeps.com",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "7 Apr, 2022"
+ },
+ "image": "images/screeps-arena.jpg",
+ "german_content": {
+  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, wherein the core mechanic is programming your units AI. You write real JavaScript that fights autonomously against other players in a match-based arena environment.",
+  "categories": [
+   "Mehrspieler",
+   "PvP",
+   "Online-PvP",
+   "Plattformübergreifender Mehrspieler",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Indie",
+   "Simulationen",
+   "Strategie",
+   "Early Access"
+  ]
+ },
+ "english_content": {
+  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, wherein the core mechanic is programming your units AI. You write real JavaScript that fights autonomously against other players in a match-based arena environment.",
+  "categories": [
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Cross-Platform Multiplayer",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ]
+ }
+}

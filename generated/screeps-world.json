@@ -1,0 +1,62 @@
+{
+ "name": "Screeps: World",
+ "steamID": 464350,
+ "slug": "screeps-world",
+ "repository": "https://github.com/screeps/screeps",
+ "programmable": true,
+ "website": "https://screeps.com",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "16 Nov, 2016"
+ },
+ "image": "images/screeps-world.jpg",
+ "german_content": {
+  "short_description": "Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operates 24/7 in the single persistent open world filled by other players on par with you.",
+  "categories": [
+   "Einzelspieler",
+   "Mehrspieler",
+   "MMO",
+   "PvP",
+   "Online-PvP",
+   "LAN-PvP",
+   "Plattformübergreifender Mehrspieler",
+   "Steam-Sammelkarten",
+   "Steam Workshop",
+   "Statistiken",
+   "Steam-Bestenlisten"
+  ],
+  "genres": [
+   "Indie",
+   "MMO",
+   "Simulationen",
+   "Strategie"
+  ]
+ },
+ "english_content": {
+  "short_description": "Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operates 24/7 in the single persistent open world filled by other players on par with you.",
+  "categories": [
+   "Single-player",
+   "Multi-player",
+   "MMO",
+   "PvP",
+   "Online PvP",
+   "LAN PvP",
+   "Cross-Platform Multiplayer",
+   "Steam Trading Cards",
+   "Steam Workshop",
+   "Stats",
+   "Steam Leaderboards"
+  ],
+  "genres": [
+   "Indie",
+   "Massively Multiplayer",
+   "Simulation",
+   "Strategy"
+  ]
+ }
+}
