@@ -1,0 +1,58 @@
+{
+ "name": "Mindustry",
+ "steamID": 1127400,
+ "slug": "mindustry",
+ "repository": "https://github.com/Anuken/Mindustry",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Sep 26, 2019"
+ },
+ "image": "images/mindustry.jpg",
+ "german_content": {
+  "short_description": "An open-ended factory management game with RTS and tower defense elements.",
+  "categories": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Stats",
+   "Includes level editor",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Strategy"
+  ]
+ },
+ "english_content": {
+  "short_description": "An open-ended factory management game with RTS and tower defense elements.",
+  "categories": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Stats",
+   "Includes level editor",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Strategy"
+  ]
+ }
+}

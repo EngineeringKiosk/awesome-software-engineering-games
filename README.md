@@ -4,10 +4,11 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (10 games)
+* [Games](#games) (11 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
+  * [Mindustry](#mindustry)
   * [Net.Attack()](#net-attack)
   * [Satisfactory](#satisfactory)
   * [shapez](#shapez)
@@ -57,6 +58,19 @@ Program little office workers to solve puzzles. Be a good employee! The machines
 * Release: Thursday, 15 October 2015
 * [Human Resource Machine Website](http://tomorrowcorporation.com/humanresourcemachine)
 * [Human Resource Machine @ Steam](https://store.steampowered.com/app/375820/)
+
+----
+
+<h3 id="mindustry">Mindustry</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/mindustry.jpg" />
+
+An open-ended factory management game with RTS and tower defense elements.
+* Genre: Strategy
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="13"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="13"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="13"/>
+* Release: Thursday, 26 September 2019
+* [Mindustry Website]()
+* [Mindustry @ Steam](https://store.steampowered.com/app/1127400/)
 
 ----
 

@@ -2,6 +2,7 @@
  "name": "shapez",
  "steamID": 1318690,
  "slug": "shapez",
+ "repository": "https://github.com/tobspr-games/shapez.io",
  "website": "https://shapez.io",
  "platforms": {
   "windows": true,
