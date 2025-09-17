@@ -20,7 +20,7 @@ A curated list of games for software engineers that have that certain something 
 {{end}}
 {{ $game.EnglishContent.ShortDescription }}
 * Genre: {{ $game.GenresAsList }}
-* Available for {{ if $game.Platforms.Windows }}<img src="./assets/windows.svg" alt="Windows" title="Windows" width="13"/>{{end}}{{ if $game.Platforms.Mac }} <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="13"/>{{end}}{{ if $game.Platforms.Linux }} <img src="./assets/linux.svg" alt="Linux" title="Linux" width="13"/>{{end}}
+* Available for {{ if $game.Platforms.Windows }}<img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>{{end}}{{ if $game.Platforms.Mac }} <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/>{{end}}{{ if $game.Platforms.Linux }} <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>{{end}}
 * Release: {{ $game.GetReleaseDate }}
 {{ if $game.Website }}* [{{ $game.Name }} Website]({{ $game.Website }}){{- end}}{{ if $game.Repository }}
 * [{{ $game.Name }} @ Source Code Repository]({{ $game.Repository }}){{- end }}{{ if $game.SteamID }}
