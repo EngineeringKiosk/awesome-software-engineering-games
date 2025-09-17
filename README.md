@@ -109,7 +109,7 @@ Unleash your inner hacker skills and code your way to victory in a game where co
 Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!
 * Genre: Adventure, Indie, Simulation, Strategy
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="13"/>
-* Release: 
+* Release: Tuesday, 10 September 2024
 * [Satisfactory Website](https://www.satisfactorygame.com/)
 * [Satisfactory @ Steam](https://store.steampowered.com/app/526870/)
 
