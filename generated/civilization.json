@@ -1,0 +1,40 @@
+{
+ "name": "Sid Meier's Civilization IV",
+ "steamID": 3900,
+ "slug": "sid-meiers-civilization-iv",
+ "website": "http://www.2kgames.com/civ4/home.htm",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": false
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Oct 25, 2006"
+ },
+ "image": "images/civilization.jpg",
+ "german_content": {
+  "short_description": "Mit über 6 Millionen verkauften Exemplaren und beispielslosem Lob von Fans und der Presse aus der ganzen Welt, wurde Civilization von Sid Meier zu einem der besten PC-Spiele aller Zeiten. Jetzt bringen Sid Meier und Firaxis Games dieses unglaubliche süchtig und Spaß machende Spiel zu neuen Höhen, indem sie es durch neue...",
+  "categories": [
+   "Einzelspieler",
+   "Mehrspieler",
+   "Enthält Level-Editor",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Strategie"
+  ]
+ },
+ "english_content": {
+  "short_description": "With over 6 million units sold and unprecedented critical acclaim from fans and press around the world, Sid Meier's Civilization is recognized as one of the greatest PC game franchises of all-time. Now, Sid Meier and Firaxis Games will take this incredibly fun and addictive game to new heights by adding new ways to play and win, new...",
+  "categories": [
+   "Single-player",
+   "Multi-player",
+   "Includes level editor",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Strategy"
+  ]
+ }
+}

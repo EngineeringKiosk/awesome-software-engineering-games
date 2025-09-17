@@ -4,7 +4,7 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (9 games)
+* [Games](#games) (10 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
@@ -12,6 +12,7 @@ A curated list of games for software engineers that have that certain something 
   * [Satisfactory](#satisfactory)
   * [shapez](#shapez)
   * [shapez 2](#shapez-2)
+  * [Sid Meier&#39;s Civilization IV](#sid-meiers-civilization-iv)
   * [The Farmer Was Replaced](#the-farmer-was-replaced)
   * [TIS-100](#tis-100)
 * [How to contribute](#how-to-contribute)
@@ -74,7 +75,7 @@ Unleash your inner hacker skills and code your way to victory in a game where co
 
 Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!
 * Genre: Adventure, Indie, Simulation, Strategy
-* Release: Tuesday, 10 September 2024
+* Release: 
 * [Satisfactory Website](https://www.satisfactorygame.com/)
 * [Satisfactory @ Steam](https://store.steampowered.com/app/526870/)
 
@@ -101,6 +102,18 @@ Dive into a factory-building game with the focus on just that – building huge 
 * Release: Thursday, 15 August 2024
 * [shapez 2 Website](https://tobspr.io)
 * [shapez 2 @ Steam](https://store.steampowered.com/app/2162800/)
+
+----
+
+<h3 id="sid-meiers-civilization-iv">Sid Meier&#39;s Civilization IV</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/civilization.jpg" />
+
+With over 6 million units sold and unprecedented critical acclaim from fans and press around the world, Sid Meier&#39;s Civilization is recognized as one of the greatest PC game franchises of all-time. Now, Sid Meier and Firaxis Games will take this incredibly fun and addictive game to new heights by adding new ways to play and win, new...
+* Genre: Strategy
+* Release: Wednesday, 25 October 2006
+* [Sid Meier&#39;s Civilization IV Website](http://www.2kgames.com/civ4/home.htm)
+* [Sid Meier&#39;s Civilization IV @ Steam](https://store.steampowered.com/app/3900/)
 
 ----
 
