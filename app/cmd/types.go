@@ -42,13 +42,20 @@ type ReleaseDate struct {
 }
 
 func (g GameInformation) GetReleaseDate() string {
-	t, err := time.Parse("2 Jan, 2006", g.ReleaseDate.Date)
-	if err != nil {
-		return ""
+	layouts := []string{
+		"2 Jan, 2006", // e.g. 10 Sep, 2024
+		"Jan 2, 2006", // e.g. Aug 23, 2018
 	}
-	s := t.Format("Monday, 02 January 2006")
+	var t time.Time
+	var err error
+	for _, layout := range layouts {
+		t, err = time.Parse(layout, g.ReleaseDate.Date)
+		if err == nil {
+			return t.Format("Monday, 02 January 2006")
+		}
+	}
 
-	return s
+	return ""
 }
 
 func (g GameInformation) GenresAsList() string {
