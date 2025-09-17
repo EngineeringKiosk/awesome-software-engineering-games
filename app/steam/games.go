@@ -16,33 +16,43 @@ type AppDetailsResponse struct {
 }
 
 type Game struct {
-	Type                string        `json:"type,omitempty"`
-	Name                string        `json:"name,omitempty"`
-	SteamAppID          int64         `json:"steam_appid,omitempty"`
-	RequiredAge         int           `json:"required_age,omitempty"`
-	IsFree              bool          `json:"is_free,omitempty"`
-	DetailedDescription string        `json:"detailed_description,omitempty"`
-	AboutTheGame        string        `json:"about_the_game,omitempty"`
-	ShortDescription    string        `json:"short_description,omitempty"`
-	SupportedLanguages  string        `json:"supported_languages,omitempty"`
-	HeaderImage         string        `json:"header_image,omitempty"`
-	CapsuleImage        string        `json:"capsule_image,omitempty"`
-	CapsuleImagev5      string        `json:"capsule_imagev5,omitempty"`
-	Website             string        `json:"website,omitempty"`
-	PCRequirements      Requirements  `json:"pc_requirements,omitempty"`
-	MacRequirements     Requirements  `json:"mac_requirements,omitempty"`
-	LinuxRequirements   Requirements  `json:"linux_requirements,omitempty"`
-	Developers          []string      `json:"developers,omitempty"`
-	Publishers          []string      `json:"publishers,omitempty"`
-	PriceOverview       PriceOverview `json:"price_overview,omitempty"`
-	Platforms           Platforms     `json:"platforms,omitempty"`
-	Categories          []Category    `json:"categories,omitempty"`
-	Genres              []Genre       `json:"genres,omitempty"`
-	Screenshots         []Screenshort `json:"screenshots,omitempty"`
-	Movies              []Movie       `json:"movies,omitempty"`
-	ReleaseDate         ReleaseDate   `json:"release_date,omitempty"`
-	Background          string        `json:"background,omitempty"`
-	BackgroundRaw       string        `json:"background_raw,omitempty"`
+	Type                string       `json:"type,omitempty"`
+	Name                string       `json:"name,omitempty"`
+	SteamAppID          int64        `json:"steam_appid,omitempty"`
+	RequiredAge         int          `json:"required_age,omitempty"`
+	IsFree              bool         `json:"is_free,omitempty"`
+	DetailedDescription string       `json:"detailed_description,omitempty"`
+	AboutTheGame        string       `json:"about_the_game,omitempty"`
+	ShortDescription    string       `json:"short_description,omitempty"`
+	SupportedLanguages  string       `json:"supported_languages,omitempty"`
+	HeaderImage         string       `json:"header_image,omitempty"`
+	CapsuleImage        string       `json:"capsule_image,omitempty"`
+	CapsuleImagev5      string       `json:"capsule_imagev5,omitempty"`
+	Website             string       `json:"website,omitempty"`
+	PCRequirements      Requirements `json:"pc_requirements,omitempty"`
+	MacRequirements     Requirements `json:"mac_requirements,omitempty"`
+
+	// LinuxRequirements is currently not active.
+	// The reason is the game "" (see https://store.steampowered.com/api/appdetails?appids=3900)
+	// The JSON states `"linux_requirements":[],` which causes an error when decoding into the struct.
+	// We expect a Requirements struct with Minimum and Recommended fields.
+	// The API provides an empty array/list instead.
+	// I don't know if this is a one-off issue or if this happens more often.
+	// However, for our use case right now, we can live without this field.
+	//
+	// LinuxRequirements   Requirements  `json:"linux_requirements,omitempty"`
+
+	Developers    []string      `json:"developers,omitempty"`
+	Publishers    []string      `json:"publishers,omitempty"`
+	PriceOverview PriceOverview `json:"price_overview,omitempty"`
+	Platforms     Platforms     `json:"platforms,omitempty"`
+	Categories    []Category    `json:"categories,omitempty"`
+	Genres        []Genre       `json:"genres,omitempty"`
+	Screenshots   []Screenshort `json:"screenshots,omitempty"`
+	Movies        []Movie       `json:"movies,omitempty"`
+	ReleaseDate   ReleaseDate   `json:"release_date,omitempty"`
+	Background    string        `json:"background,omitempty"`
+	BackgroundRaw string        `json:"background_raw,omitempty"`
 
 	// Missing fields
 	// - packages
