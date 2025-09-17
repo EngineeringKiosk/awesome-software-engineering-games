@@ -9,11 +9,10 @@ If you want to change the `README.md` file, please make your changes to `assets/
 
 ## Extending the *yml* format in `/games`
 
-If you aim to modify (add, change or remove) a yaml proprty in the `/games/*.yml`, 
-please ensure making this change in all *.yml* files.
+If you aim to modify (add, change, or remove) a YAML property in the `/games/*.yml`, please ensure that you make this change in all *.yml* files.
 
-Our tooling in `/app` also need adjustment.
+Our tooling in `/app` also needs adjustment.
 Mainly in
 
 * `/app/cmd/types.go`: Adjusting the type structure
-* `app/cmd/convertYamlToJson.go` -> `mergeGameInformation`: Adjusting the Yaml to JSON merge logic
+* `app/cmd/convertYamlToJson.go` -> `mergeGameInformation`: Adjusting the YAML to JSON merge logic
