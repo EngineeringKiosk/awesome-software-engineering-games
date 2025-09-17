@@ -6,9 +6,11 @@ import (
 )
 
 type GameInformation struct {
-	Name    string `yaml:"name" json:"name"`
-	SteamID int64  `yaml:"steamID" json:"steamID"`
-	Slug    string `json:"slug"`
+	Name         string `yaml:"name" json:"name"`
+	SteamID      int64  `yaml:"steamID" json:"steamID"`
+	Slug         string `json:"slug"`
+	Repository   string `json:"repository,omitempty"`
+	Programmable bool   `json:"programmable,omitempty"`
 
 	Website     string      `json:"website,omitempty"`
 	RequiredAge int         `json:"required_age,omitempty"`

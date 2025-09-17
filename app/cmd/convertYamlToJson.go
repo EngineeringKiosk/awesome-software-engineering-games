@@ -134,6 +134,9 @@ func mergeGameInformation(source, target *GameInformation) *GameInformation {
 	// please update CONTRIBUTING.md as well.
 	target.Name = source.Name
 	target.SteamID = source.SteamID
+	target.Website = source.Website
+	target.Repository = source.Repository
+	target.Programmable = source.Programmable
 
 	return target
 }
