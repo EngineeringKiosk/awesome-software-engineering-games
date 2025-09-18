@@ -14,7 +14,7 @@
   "coming_soon": false,
   "date": ""
  },
- "image": "../assets/dummy-image.png",
+ "image": "images/spacetraders.png",
  "german_content": {
   "short_description": "SpaceTraders ist ein weltraumthematisches Wirtschaftsspiel mit HTTP-Endpunkten, mit denen du dein Gameplay automatisieren und eigene Tools bauen kannst (ein programmierbares API-Spiel für Entwickler). Es ist ein offenes Universum, in dem du über HTTP-Endpunkte eine Flotte von Raumschiffen steuern kannst. Alle Spieler betreiben ihre Flotten im selben Universum. Anders als bei einem traditionellen Spiel ist SpaceTraders kopflos und hat keinen eigenen offiziellen Client, mit dem du das Spiel spielen könntest. Stattdessen bist du als Spieler selbst dafür verantwortlich, deinen eigenen Client zu entwickeln, um mit der API zu interagieren. Das ermöglicht dir, deine eigene Benutzeroberfläche zu bauen, deine Handelsrouten zu automatisieren oder das Spiel einfach bequem von deinem Terminal aus zu spielen.",
   "genres": [

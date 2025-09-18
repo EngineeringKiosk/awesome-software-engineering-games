@@ -13,7 +13,7 @@
   "coming_soon": false,
   "date": ""
  },
- "image": "../games/images/artifacts.png",
+ "image": "images/artifacts.png",
  "german_content": {
   "short_description": "Artifacts ist ein Sandbox-MMORPG für Code-Liebhaber, in dem du deine Charaktere vollständig über eine HTTP-API steuerst. Jede Aktion, die deine Charaktere ausführen können, entspricht einem Endpunkt, mit dem du programmatisch interagierst. Dieser einzigartige Ansatz erlaubt es dir, das Gameplay zu automatisieren, eigene Tools zu entwickeln und neue Spielweisen zu entdecken. Es gibt keinen vorgegebenen Weg – du bestimmst dein eigenes Abenteuer. Schicke deine Charaktere in den Kampf gegen Monster, sammle Ressourcen mit Fähigkeiten wie Bergbau und Holzfällen, stelle Ausrüstung her, erfülle Quests und vieles mehr.",
   "genres": [
