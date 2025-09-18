@@ -54,9 +54,9 @@ jobs:
           commit_user_email: stehtisch@engineeringkiosk.dev
           commit_author: Game data update bot <stehtisch@engineeringkiosk.dev>
 
-      #- name: Trigger webpage to sync
-      #  uses: peter-evans/repository-dispatch@v3.0.0
-      #  with:
-      #    token: ${{ secrets.REPOSITORY_DISPATCH_TOKEN }}
-      #    repository: EngineeringKiosk/webpage
-      #    event-type: game-list-update
+      - name: Trigger webpage to sync
+        uses: peter-evans/repository-dispatch@v3.0.0
+        with:
+          token: ${{ secrets.REPOSITORY_DISPATCH_TOKEN }}
+          repository: EngineeringKiosk/webpage
+          event-type: game-list-update
