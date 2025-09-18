@@ -10,7 +10,8 @@
   "linux": true
  },
  "release_date": {
-  "coming_soon": false
+  "coming_soon": false,
+  "date": ""
  },
  "image": "../games/images/artifacts.png",
  "german_content": {
