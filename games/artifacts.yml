@@ -2,3 +2,24 @@ name: Artifacts
 steamID: 0
 website: https://www.artifactsmmo.com/
 programmable: true
+
+# Manual added information, as this game is not available on Steam (where we pull most of the information from).
+image: ../games/images/artifacts.png # Relative path to the image from the `generated` folder.
+platforms:
+  windows: true
+  mac: true
+  linux: true
+release_date:
+  date: "" # Unknown release date
+english_content:
+  short_description: "Artifacts is a sandbox MMORPG designed for code lovers, where you control your characters entirely through an HTTP API. Every action your characters can take corresponds to an endpoint you can interact with programmatically. This unique approach lets you automate gameplay, build custom tools, and explore new ways to play. It has no predetermined path — you choose your own adventure. Send your characters into combat against monsters, gather resources using skills like mining and woodcutting, craft equipment, complete quests, and much more."
+  genres:
+    - "Programming"
+    - "Massively Multiplayer"
+    - "Strategy"
+german_content:
+  short_description: "Artifacts ist ein Sandbox-MMORPG für Code-Liebhaber, in dem du deine Charaktere vollständig über eine HTTP-API steuerst. Jede Aktion, die deine Charaktere ausführen können, entspricht einem Endpunkt, mit dem du programmatisch interagierst. Dieser einzigartige Ansatz erlaubt es dir, das Gameplay zu automatisieren, eigene Tools zu entwickeln und neue Spielweisen zu entdecken. Es gibt keinen vorgegebenen Weg – du bestimmst dein eigenes Abenteuer. Schicke deine Charaktere in den Kampf gegen Monster, sammle Ressourcen mit Fähigkeiten wie Bergbau und Holzfällen, stelle Ausrüstung her, erfülle Quests und vieles mehr."
+  genres:
+    - "Programmierung"
+    - "Massively Multiplayer"
+    - "Strategie"

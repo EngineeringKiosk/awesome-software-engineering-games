@@ -3,3 +3,24 @@ steamID: 0
 website: https://spacetraders.io/
 repository: https://github.com/SpaceTradersAPI/api-docs
 programmable: true
+
+# Manual added information, as this game is not available on Steam (where we pull most of the information from).
+image: ../assets/dummy-image.png # Relative path to the image from the `generated` folder.
+platforms:
+  windows: true
+  mac: true
+  linux: true
+release_date:
+  date: "" # Unknown release date
+english_content:
+  short_description: "SpaceTraders is a space-themed economic game with HTTP endpoints for automating gameplay and building custom tools (A programmable API game for developers). It is an open-universe space-themed game that offers a set of HTTP endpoints to control a fleet of ships. All players operate their fleet in the same universe. Unlike a traditional game, SpaceTraders is headless and does not have a first-party client to play the game. Instead, you as the player are responsible for building your own client to interact with the API. This allows you to build your own UI, automate your trade routes, or just play the game from the comfort of your terminal."
+  genres:
+    - "Programming"
+    - "Strategy"
+    - "Simulation"
+german_content:
+  short_description: "SpaceTraders ist ein weltraumthematisches Wirtschaftsspiel mit HTTP-Endpunkten, mit denen du dein Gameplay automatisieren und eigene Tools bauen kannst (ein programmierbares API-Spiel für Entwickler). Es ist ein offenes Universum, in dem du über HTTP-Endpunkte eine Flotte von Raumschiffen steuern kannst. Alle Spieler betreiben ihre Flotten im selben Universum. Anders als bei einem traditionellen Spiel ist SpaceTraders kopflos und hat keinen eigenen offiziellen Client, mit dem du das Spiel spielen könntest. Stattdessen bist du als Spieler selbst dafür verantwortlich, deinen eigenen Client zu entwickeln, um mit der API zu interagieren. Das ermöglicht dir, deine eigene Benutzeroberfläche zu bauen, deine Handelsrouten zu automatisieren oder das Spiel einfach bequem von deinem Terminal aus zu spielen."
+  genres:
+    - "Programmierung"
+    - "Strategie"
+    - "Simulation"

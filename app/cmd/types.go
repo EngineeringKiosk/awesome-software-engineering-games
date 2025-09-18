@@ -9,36 +9,36 @@ type GameInformation struct {
 	Name         string `yaml:"name" json:"name"`
 	SteamID      int64  `yaml:"steamID" json:"steamID"`
 	Slug         string `json:"slug"`
-	Repository   string `json:"repository,omitempty"`
-	Programmable bool   `json:"programmable,omitempty"`
+	Repository   string `yaml:"repository" json:"repository,omitempty"`
+	Programmable bool   `yaml:"programmable" json:"programmable,omitempty"`
 
-	Website     string      `json:"website,omitempty"`
-	RequiredAge int         `json:"required_age,omitempty"`
-	IsFree      bool        `json:"is_free,omitempty"`
-	Platforms   Platforms   `json:"platforms,omitempty"`
-	ReleaseDate ReleaseDate `json:"release_date,omitempty"`
-	Image       string      `json:"image,omitempty"`
+	Website     string      `yaml:"website" json:"website,omitempty"`
+	RequiredAge int         `yaml:"required_age" json:"required_age,omitempty"`
+	IsFree      bool        `yaml:"is_free" json:"is_free,omitempty"`
+	Platforms   Platforms   `yaml:"platforms" json:"platforms,omitempty"`
+	ReleaseDate ReleaseDate `yaml:"release_date" json:"release_date,omitempty"`
+	Image       string      `yaml:"image" json:"image,omitempty"`
 
 	// German
-	GermanContent  LanguageContent `json:"german_content,omitempty"`
-	EnglishContent LanguageContent `json:"english_content,omitempty"`
+	GermanContent  LanguageContent `yaml:"german_content" json:"german_content,omitempty"`
+	EnglishContent LanguageContent `yaml:"english_content" json:"english_content,omitempty"`
 }
 
 type LanguageContent struct {
-	ShortDescription string   `json:"short_description,omitempty"`
-	Categories       []string `json:"categories,omitempty"`
-	Genres           []string `json:"genres,omitempty"`
+	ShortDescription string   `yaml:"short_description" json:"short_description,omitempty"`
+	Categories       []string `yaml:"categories" json:"categories,omitempty"`
+	Genres           []string `yaml:"genres" json:"genres,omitempty"`
 }
 
 type Platforms struct {
-	Windows bool `json:"windows"`
-	Mac     bool `json:"mac"`
-	Linux   bool `json:"linux"`
+	Windows bool `yaml:"windows" json:"windows"`
+	Mac     bool `yaml:"mac" json:"mac"`
+	Linux   bool `yaml:"linux" json:"linux"`
 }
 
 type ReleaseDate struct {
-	ComingSoon bool   `json:"coming_soon"`
-	Date       string `json:"date,omitempty"`
+	ComingSoon bool   `yaml:"coming_soon" json:"coming_soon"`
+	Date       string `yaml:"date" json:"date,omitempty"`
 }
 
 func (g GameInformation) GetReleaseDate() string {
