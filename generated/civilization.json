@@ -10,31 +10,31 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Oct 25, 2006"
+  "date": "2006 年 10 月 25 日"
  },
  "image": "images/civilization.jpg",
  "german_content": {
-  "short_description": "Mit über 6 Millionen verkauften Exemplaren und beispielslosem Lob von Fans und der Presse aus der ganzen Welt, wurde Civilization von Sid Meier zu einem der besten PC-Spiele aller Zeiten. Jetzt bringen Sid Meier und Firaxis Games dieses unglaubliche süchtig und Spaß machende Spiel zu neuen Höhen, indem sie es durch neue...",
+  "short_description": "Sid Meier 的 Civilization (文明帝国) 系列在全球已售出六百多万套，并获各地支持者与媒体好评，被视为是史上最经典的电脑游戏系列之一。 现在，Sid Meier 与 Firaxis Games 更把这一款引人入迷的趣味游戏带往另一高峰，在游戏中加入了新的游戏方式、新的胜败条件、新的工具来管理扩张您的文明，并通过全新的方法让 MOD 游戏更简单、多人模式更有趣、选项更多。 Civilization IV 有细致的画面，彷佛活着的 3D 世界，把游戏体验提升至全新的境界。 Civilization IV 已被玩家赞为 2005 年十大游戏，是全球玩家一定要尝试的游戏！",
   "categories": [
-   "Einzelspieler",
-   "Mehrspieler",
-   "Enthält Level-Editor",
-   "Familienbibliothek"
+   "单人",
+   "多人",
+   "包含关卡编辑器",
+   "家庭共享"
   ],
   "genres": [
-   "Strategie"
+   "策略"
   ]
  },
  "english_content": {
-  "short_description": "With over 6 million units sold and unprecedented critical acclaim from fans and press around the world, Sid Meier's Civilization is recognized as one of the greatest PC game franchises of all-time. Now, Sid Meier and Firaxis Games will take this incredibly fun and addictive game to new heights by adding new ways to play and win, new...",
+  "short_description": "Sid Meier 的 Civilization (文明帝国) 系列在全球已售出六百多万套，并获各地支持者与媒体好评，被视为是史上最经典的电脑游戏系列之一。 现在，Sid Meier 与 Firaxis Games 更把这一款引人入迷的趣味游戏带往另一高峰，在游戏中加入了新的游戏方式、新的胜败条件、新的工具来管理扩张您的文明，并通过全新的方法让 MOD 游戏更简单、多人模式更有趣、选项更多。 Civilization IV 有细致的画面，彷佛活着的 3D 世界，把游戏体验提升至全新的境界。 Civilization IV 已被玩家赞为 2005 年十大游戏，是全球玩家一定要尝试的游戏！",
   "categories": [
-   "Single-player",
-   "Multi-player",
-   "Includes level editor",
-   "Family Sharing"
+   "单人",
+   "多人",
+   "包含关卡编辑器",
+   "家庭共享"
   ],
   "genres": [
-   "Strategy"
+   "策略"
   ]
  }
 }
