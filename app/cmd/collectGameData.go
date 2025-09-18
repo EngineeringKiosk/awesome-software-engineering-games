@@ -166,6 +166,26 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 			gameInfo.Image = filepath.Join(imageFolder, gameImageName)
 		} else {
 			log.Printf("Skipping data retrieval from Steam for %s, because SteamID is %d", absJsonFilePath, gameInfo.SteamID)
+
+			// If we do not have steam data, it could be that we have to deal with an local image.
+			// Lets handle those images as normal images and copy them into the images folder.
+			if !strings.HasPrefix(gameInfo.Image, imageFolder+"/") {
+
+				jsonFileExtension := path.Ext(f.Name())
+				imageFileExtension := path.Ext(gameInfo.Image)
+				imageFileName := f.Name()[0:len(f.Name())-len(jsonFileExtension)] + imageFileExtension
+
+				absImageFilePathDestination, _ := filepath.Abs(filepath.Join(jsonDir, imageFolder, imageFileName))
+				absImageFilePathSource, _ := filepath.Abs(gameInfo.Image)
+
+				// Copy the image to the images folder
+				err := libIO.CopyFile(absImageFilePathSource, absImageFilePathDestination)
+				if err != nil {
+					return err
+				}
+
+				gameInfo.Image = filepath.Join(imageFolder, imageFileName)
+			}
 		}
 
 		// Write the information back to the JSON file

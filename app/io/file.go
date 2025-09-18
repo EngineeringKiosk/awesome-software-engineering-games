@@ -2,6 +2,8 @@ package io
 
 import (
 	"encoding/json"
+	"fmt"
+	"io"
 	"log"
 	"os"
 	"path"
@@ -59,4 +61,37 @@ func DoesImageExistsOnDisk(absImageFilePath string, onlyAbsoluteCheck bool) (str
 	}
 
 	return "", false
+}
+
+// CopyFile copies the contents of the file named src to dst.
+// If dst does not exist, it will be created.
+// If dst exists, it will be overwritten.
+func CopyFile(src, dst string) error {
+	// Open source file
+	sourceFile, err := os.Open(src)
+	if err != nil {
+		return fmt.Errorf("could not open source file: %w", err)
+	}
+	defer sourceFile.Close()
+
+	// Create destination file
+	destFile, err := os.Create(dst)
+	if err != nil {
+		return fmt.Errorf("could not create destination file: %w", err)
+	}
+	defer destFile.Close()
+
+	// Copy contents
+	_, err = io.Copy(destFile, sourceFile)
+	if err != nil {
+		return fmt.Errorf("copy failed: %w", err)
+	}
+
+	// Flush writes to stable storage
+	err = destFile.Sync()
+	if err != nil {
+		return fmt.Errorf("failed to sync destination file: %w", err)
+	}
+
+	return nil
 }
