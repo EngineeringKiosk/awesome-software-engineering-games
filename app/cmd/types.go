@@ -38,7 +38,7 @@ type Platforms struct {
 
 type ReleaseDate struct {
 	ComingSoon bool   `yaml:"coming_soon" json:"coming_soon"`
-	Date       string `yaml:"date" json:"date,omitempty"`
+	Date       string `yaml:"date" json:"date"`
 }
 
 func (g GameInformation) GetReleaseDate() string {
