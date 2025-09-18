@@ -14,6 +14,13 @@ linters:
   disable:
     - staticcheck
 
+  settings:
+    errcheck:
+      # List of functions to exclude from checking, where each entry is a single function to exclude.
+      # See https://github.com/kisielk/errcheck#excluding-functions for details.
+      exclude-functions:
+        - (*net/http.Response).Body.Close
+
 run:
   # Timeout for total work, e.g. 30s, 5m, 5m30s.
   # If the value is lower or equal to 0, the timeout is disabled.
