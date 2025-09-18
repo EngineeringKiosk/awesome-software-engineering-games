@@ -10,22 +10,22 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "20 Jul, 2015"
+  "date": "Jul 20, 2015"
  },
  "image": "images/tis-100.jpg",
  "german_content": {
   "short_description": "TIS-100 is an open-ended programming game by Zachtronics, the creators of SpaceChem and Infinifactory, in which you rewrite corrupted code segments to repair the TIS-100 and unlock its secrets. It’s the assembly language programming game you never asked for!",
   "categories": [
-   "Single-player",
-   "Steam Achievements",
+   "Einzelspieler",
+   "Steam-Errungenschaften",
    "Steam Cloud",
-   "Steam Leaderboards",
-   "Includes level editor",
-   "Family Sharing"
+   "Steam-Bestenlisten",
+   "Enthält Level-Editor",
+   "Familienbibliothek"
   ],
   "genres": [
    "Indie",
-   "Simulation"
+   "Simulationen"
   ]
  },
  "english_content": {
