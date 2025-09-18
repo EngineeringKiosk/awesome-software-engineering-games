@@ -79,14 +79,14 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 		if gameInfo.SteamID > 0 {
 			// Get Game info
 			log.Printf("Requesting 'Games.GetAppDetails' data [EN] from Steam API for game %s (ID: %d) ...", gameInfo.Name, gameInfo.SteamID)
-			gameEnglish, _, err := steamClient.Games.GetAppDetails(context.Background(), gameInfo.SteamID, "en-US")
+			gameEnglish, _, err := steamClient.Games.GetAppDetails(context.Background(), gameInfo.SteamID, "english", "en-US")
 			if err != nil {
 				return err
 			}
 			log.Printf("Requesting 'Games.GetAppDetails' data [EN] from Steam API for game %s (ID: %d) ... successful", gameInfo.Name, gameInfo.SteamID)
 
 			log.Printf("Requesting 'Games.GetAppDetails' data [DE] from Steam API for game %s (ID: %d) ...", gameInfo.Name, gameInfo.SteamID)
-			gameGerman, _, err := steamClient.Games.GetAppDetails(context.Background(), gameInfo.SteamID, "de-DE")
+			gameGerman, _, err := steamClient.Games.GetAppDetails(context.Background(), gameInfo.SteamID, "german", "de-DE")
 			if err != nil {
 				return err
 			}
