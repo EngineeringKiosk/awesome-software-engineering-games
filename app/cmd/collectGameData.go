@@ -95,7 +95,15 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 			// Set basic game data
 			gameInfo.RequiredAge = gameEnglish.RequiredAge
 			gameInfo.IsFree = gameEnglish.IsFree
-			gameInfo.Website = gameEnglish.Website
+
+			// Only override the website if we have one from Steam.
+			// It could be that we set a manual website in the YAML file
+			// that is better than the one from Steam.
+			//
+			// Example: Game "mindustrygame"
+			if len(gameEnglish.Website) > 0 {
+				gameInfo.Website = gameEnglish.Website
+			}
 			gameInfo.Platforms = Platforms{
 				Windows: gameEnglish.Platforms.Windows,
 				Mac:     gameEnglish.Platforms.Mac,
