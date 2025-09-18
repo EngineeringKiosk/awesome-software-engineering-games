@@ -45,8 +45,24 @@ Feel free to check out a few other YAML files in that directory to see what it s
 | name                         | string             | Name of the game                                                                           |
 | website                      | string (url)       | Website (full URL) of the game                                                             |
 | steamID                      | integer            | ID of the game in the [Steam Store](https://store.steampowered.com/)                       |
-| repository                   | string (url)       | Git repository (Github, Gitlab, etc.) if the source code is publicly available               |
-| programmable                 | boolean            | Can the game be controlled by code? (e.g., programmable interface for competitions)          |
+| repository                   | string (url)       | Git repository (Github, Gitlab, etc.) if the source code is publicly available             |
+| programmable                 | boolean            | Can the game be controlled by code? (e.g., programmable interface for competitions)        |
+
+We use the Steam ID to pull most of the data into the repository.
+In case your game is not offered on Steam, we are not able to pull the data.
+Hence this data need to be provided manually:
+
+| Field                             | Type           | Description                                                                                         |
+|-----------------------------------|----------------|-----------------------------------------------------------------------------------------------------|
+| image                             | string (path)  | A path to an image of the game. The image can be placed in the repository.                          |
+| platforms.windows                 | boolean        | Does this game work on Windows?                                                                     |
+| platforms.mac                     | boolean        | Does this game work on macOS?                                                                       |
+| platforms.linux                   | boolean        | Does this game work on Linux?                                                                       |
+| release_date.date                 | string         | Release date of the game (in the format of "Oct 25, 2006"). If unknown, add an empty string         |
+| english_content.short_description | string         | A short description that tells something about this game.                                           |
+| english_content.genres            | Array<string>  | Genres this came is operating in.                                                                   |
+| german_content.short_description  | boolean        | A short description that tells something about this game (in german). It is OK to leave this empty. |
+| german_content.genres             | boolean        | Genres this came is operating in (in german). It is OK to leave this empty.                         |
 
 Finally, create a pull request with all your changes. 
 
