@@ -181,9 +181,10 @@ Dive into a factory-building game with the focus on just that – building huge 
 
 <img align="right" width="215" height="215" src="./generated/images/civilization.jpg" />
 
-Sid Meier 的 Civilization (文明帝国) 系列在全球已售出六百多万套，并获各地支持者与媒体好评，被视为是史上最经典的电脑游戏系列之一。 现在，Sid Meier 与 Firaxis Games 更把这一款引人入迷的趣味游戏带往另一高峰，在游戏中加入了新的游戏方式、新的胜败条件、新的工具来管理扩张您的文明，并通过全新的方法让 MOD 游戏更简单、多人模式更有趣、选项更多。 Civilization IV 有细致的画面，彷佛活着的 3D 世界，把游戏体验提升至全新的境界。 Civilization IV 已被玩家赞为 2005 年十大游戏，是全球玩家一定要尝试的游戏！
-* Genre: 策略
+With over 6 million units sold and unprecedented critical acclaim from fans and press around the world, Sid Meier&#39;s Civilization is recognized as one of the greatest PC game franchises of all-time. Now, Sid Meier and Firaxis Games will take this incredibly fun and addictive game to new heights by adding new ways to play and win, new...
+* Genre: Strategy
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/>
+* Release: Wednesday, 25. October 2006
 * [Website of Sid Meier&#39;s Civilization IV](http://www.2kgames.com/civ4/home.htm)
 * [Sid Meier&#39;s Civilization IV @ Steam](https://store.steampowered.com/app/3900/)
 
