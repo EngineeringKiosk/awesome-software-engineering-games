@@ -200,7 +200,7 @@ func downloadFile(address, fileName string) (*http.Response, error) {
 	if err != nil {
 		return response, err
 	}
-	defer file.Close()
+	defer func() { _ = file.Close() }()
 
 	_, err = io.Copy(file, response.Body)
 	if err != nil {
