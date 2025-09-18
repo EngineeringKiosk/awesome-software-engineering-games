@@ -22,8 +22,8 @@ A curated list of games for software engineers that have that certain something 
 * Genre: {{ $game.GenresAsList }}
 * Available for {{ if $game.Platforms.Windows }}<img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>{{end}}{{ if $game.Platforms.Mac }} <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/>{{end}}{{ if $game.Platforms.Linux }} <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>{{end}}
 * Release: {{ $game.GetReleaseDate }}
-{{ if $game.Website }}* [{{ $game.Name }} Website]({{ $game.Website }}){{- end}}{{ if $game.Repository }}
-* [{{ $game.Name }} @ Source Code Repository]({{ $game.Repository }}){{- end }}{{ if $game.SteamID }}
+{{ if $game.Website }}* [Website of {{ $game.Name }}]({{ $game.Website }}){{- end}}{{ if $game.Repository }}
+* [Source Code for {{ $game.Name }} @ Source Code Repository]({{ $game.Repository }}){{- end }}{{ if $game.SteamID }}
 * [{{ $game.Name }} @ Steam](https://store.steampowered.com/app/{{ $game.SteamID }}/){{- end }}
 
 ----
