@@ -133,7 +133,7 @@ func (s *GamesService) GetAppDetails(ctx context.Context, steamID int64, languag
 		return nil, resp, err
 	}
 
-	game := new(Game)
+	var game *Game
 	if v, ok := apiResponse[fmt.Sprintf("%d", steamID)]; ok {
 		game = &v.Data
 	} else {

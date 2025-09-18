@@ -20,3 +20,7 @@ vet: ## Runs go vet
 .PHONY: run
 run: build ## Compiles and starts the application
 	./awesome-software-engineering-games
+
+.PHONY: test
+test: ## Runs all unit tests
+	go test -v -race ./...

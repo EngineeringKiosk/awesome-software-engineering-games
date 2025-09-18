@@ -13,12 +13,12 @@ func TestGameInformation_GetReleaseDate(t *testing.T) {
 		{
 			name: "Valid date 1",
 			date: "Aug 23, 2018",
-			want: "Thursday, 23 August 2018",
+			want: "Thursday, 23. August 2018",
 		},
 		{
 			name: "Valid date 2",
 			date: "Oct 25, 2006",
-			want: "Wednesday, 25 October 2006",
+			want: "Wednesday, 25. October 2006",
 		},
 		{
 			name: "Invalid date",
