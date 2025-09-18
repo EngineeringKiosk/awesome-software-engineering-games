@@ -124,7 +124,7 @@ type ReleaseDate struct {
 // language is an optional parameter to set the language of the response (takes English name of language (none of those fancy ISO distractions)).
 // acceptLanguage is a optional parameter to set the Accept-Language header in the request.
 //
-// Inofficial docs: https://wiki.teamfortress.com/wiki/User:RJackson/StorefrontAPI
+// Unofficial docs: https://wiki.teamfortress.com/wiki/User:RJackson/StorefrontAPI
 func (s *GamesService) GetAppDetails(ctx context.Context, steamID int64, language, acceptLanguage string) (*Game, *http.Response, error) {
 	u := fmt.Sprintf("appdetails?appids=%d&l=%s", steamID, language)
 	req, err := s.client.NewRequest("GET", u, acceptLanguage, nil)
