@@ -2,6 +2,9 @@
 
 A curated list of games for software engineers that have that certain something extra 👾 🎮
 
+Notes:
+* `Programmable: Yes 🤖` means: The game or the game client / actions can be controlled by code. Get creative 👾
+
 ## Table of Contents
 
 * [Games](#games) (15 games)
@@ -45,6 +48,7 @@ Automate swarms of office workers to solve puzzles inside your very own parallel
 
 Artifacts is a sandbox MMORPG designed for code lovers, where you control your characters entirely through an HTTP API. Every action your characters can take corresponds to an endpoint you can interact with programmatically. This unique approach lets you automate gameplay, build custom tools, and explore new ways to play. It has no predetermined path — you choose your own adventure. Send your characters into combat against monsters, gather resources using skills like mining and woodcutting, craft equipment, complete quests, and much more.
 * Genre: Programming, Massively Multiplayer, Strategy
+* Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * [Website of Artifacts](https://www.artifactsmmo.com/)
 
@@ -121,6 +125,7 @@ Satisfactory is a first-person open-world factory building game with a dash of e
 
 Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, wherein the core mechanic is programming your units AI. You write real JavaScript that fights autonomously against other players in a match-based arena environment.
 * Genre: Indie, Simulation, Strategy, Early Access
+* Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * Release: Thursday, 07. April 2022
 * [Website of Screeps: Arena](https://screeps.com)
@@ -135,6 +140,7 @@ Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, w
 
 Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operates 24/7 in the single persistent open world filled by other players on par with you.
 * Genre: Indie, Massively Multiplayer, Simulation, Strategy
+* Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * Release: Wednesday, 16. November 2016
 * [Website of Screeps: World](https://screeps.com)
@@ -189,6 +195,7 @@ With over 6 million units sold and unprecedented critical acclaim from fans and 
 
 SpaceTraders is a space-themed economic game with HTTP endpoints for automating gameplay and building custom tools (A programmable API game for developers). It is an open-universe space-themed game that offers a set of HTTP endpoints to control a fleet of ships. All players operate their fleet in the same universe. Unlike a traditional game, SpaceTraders is headless and does not have a first-party client to play the game. Instead, you as the player are responsible for building your own client to interact with the API. This allows you to build your own UI, automate your trade routes, or just play the game from the comfort of your terminal.
 * Genre: Programming, Strategy, Simulation
+* Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * [Website of SpaceTraders](https://spacetraders.io/)
 * [Source Code for SpaceTraders @ Source Code Repository](https://github.com/SpaceTradersAPI/api-docs)
