@@ -41,7 +41,10 @@ func init() {
 
 	collectGameDataCmd.Flags().String("json-directory", "", "Directory on where to store the json files")
 
-	collectGameDataCmd.MarkFlagRequired("json-directory")
+	err := collectGameDataCmd.MarkFlagRequired("json-directory")
+	if err != nil {
+		log.Fatalf("Error marking flag as required: %v", err)
+	}
 }
 
 func cmdCollectGameData(cmd *cobra.Command, args []string) error {
