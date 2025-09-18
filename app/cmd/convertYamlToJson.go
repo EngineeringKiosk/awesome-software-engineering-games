@@ -140,9 +140,34 @@ func mergeGameInformation(source, target *GameInformation) *GameInformation {
 	// please update CONTRIBUTING.md as well.
 	target.Name = source.Name
 	target.SteamID = source.SteamID
-	target.Website = source.Website
+	// Only overwrite website if we have one in the source.
+	if len(source.Website) > 0 {
+		target.Website = source.Website
+	}
 	target.Repository = source.Repository
 	target.Programmable = source.Programmable
+
+	if source.SteamID == 0 {
+		// If there is no SteamID set, we do not have any platform or release date information.
+		// Thus we take it from the source (yaml).
+		target.Image = source.Image
+		target.Platforms = Platforms{
+			Windows: source.Platforms.Windows,
+			Mac:     source.Platforms.Mac,
+			Linux:   source.Platforms.Linux,
+		}
+		target.ReleaseDate = ReleaseDate{
+			Date: source.ReleaseDate.Date,
+		}
+		target.EnglishContent = LanguageContent{
+			ShortDescription: source.EnglishContent.ShortDescription,
+			Genres:           source.EnglishContent.Genres,
+		}
+		target.GermanContent = LanguageContent{
+			ShortDescription: source.GermanContent.ShortDescription,
+			Genres:           source.GermanContent.Genres,
+		}
+	}
 
 	return target
 }
