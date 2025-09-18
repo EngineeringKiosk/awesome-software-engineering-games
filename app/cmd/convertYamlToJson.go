@@ -111,7 +111,6 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 		}
 
 		// Add generated fields
-		// TODO Maybe this should be an own command
 		gameInfo.Slug = slug.Make(gameInfo.Name)
 
 		// Dump data into JSON file
