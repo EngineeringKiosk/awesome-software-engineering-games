@@ -3,6 +3,7 @@
  "steamID": 1127400,
  "slug": "mindustry",
  "repository": "https://github.com/Anuken/Mindustry",
+ "website": "https://mindustrygame.github.io/",
  "platforms": {
   "windows": true,
   "mac": true,
