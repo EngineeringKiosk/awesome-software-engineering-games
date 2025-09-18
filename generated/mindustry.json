@@ -10,49 +10,49 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "26 сен. 2019 г."
+  "date": "Sep 26, 2019"
  },
  "image": "images/mindustry.jpg",
  "german_content": {
-  "short_description": "Безграничная игра в жанре «башенная защита» с упором на управление ресурсами.",
+  "short_description": "An open-ended factory management game with RTS and tower defense elements.",
   "categories": [
-   "Для одного игрока",
-   "Для нескольких игроков",
-   "Игрок против игрока",
-   "Игрок против игрока (по сети)",
-   "Кооператив",
-   "Кооператив (по сети)",
-   "Кросс-платформенный мультиплеер",
-   "Достижения Steam",
-   "Мастерская Steam",
+   "Einzelspieler",
+   "Mehrspieler",
+   "PvP",
+   "Online-PvP",
+   "Koop",
+   "Online-Koop",
+   "Plattformübergreifender Mehrspieler",
+   "Steam-Errungenschaften",
+   "Steam Workshop",
    "Steam Cloud",
-   "Статистика",
-   "С редактором уровней",
-   "Семейный доступ"
+   "Statistiken",
+   "Enthält Level-Editor",
+   "Familienbibliothek"
   ],
   "genres": [
-   "Стратегии"
+   "Strategie"
   ]
  },
  "english_content": {
-  "short_description": "Безграничная игра в жанре «башенная защита» с упором на управление ресурсами.",
+  "short_description": "An open-ended factory management game with RTS and tower defense elements.",
   "categories": [
-   "Для одного игрока",
-   "Для нескольких игроков",
-   "Игрок против игрока",
-   "Игрок против игрока (по сети)",
-   "Кооператив",
-   "Кооператив (по сети)",
-   "Кросс-платформенный мультиплеер",
-   "Достижения Steam",
-   "Мастерская Steam",
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Cross-Platform Multiplayer",
+   "Steam Achievements",
+   "Steam Workshop",
    "Steam Cloud",
-   "Статистика",
-   "С редактором уровней",
-   "Семейный доступ"
+   "Stats",
+   "Includes level editor",
+   "Family Sharing"
   ],
   "genres": [
-   "Стратегии"
+   "Strategy"
   ]
  }
 }
