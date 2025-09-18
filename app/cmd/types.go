@@ -51,7 +51,7 @@ func (g GameInformation) GetReleaseDate() string {
 	for _, layout := range layouts {
 		t, err = time.Parse(layout, g.ReleaseDate.Date)
 		if err == nil {
-			return t.Format("Monday, 02 January 2006")
+			return t.Format("Monday, 02. January 2006")
 		}
 	}
 
