@@ -41,9 +41,11 @@ Automate swarms of office workers to solve puzzles inside your very own parallel
 
 <h3 id="artifacts">Artifacts</h3>
 
+<img align="right" width="215" height="215" src="./generated/../games/images/artifacts.png" />
 
-* Genre: 
-* Available for 
+Artifacts is a sandbox MMORPG designed for code lovers, where you control your characters entirely through an HTTP API. Every action your characters can take corresponds to an endpoint you can interact with programmatically. This unique approach lets you automate gameplay, build custom tools, and explore new ways to play. It has no predetermined path — you choose your own adventure. Send your characters into combat against monsters, gather resources using skills like mining and woodcutting, craft equipment, complete quests, and much more.
+* Genre: Programming, Massively Multiplayer, Strategy
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * Release: 
 * [Website of Artifacts](https://www.artifactsmmo.com/)
 
@@ -79,10 +81,10 @@ Program little office workers to solve puzzles. Be a good employee! The machines
 
 <img align="right" width="215" height="215" src="./generated/images/mindustry.jpg" />
 
-An open-ended factory management game with RTS and tower defense elements.
-* Genre: Strategy
+Безграничная игра в жанре «башенная защита» с упором на управление ресурсами.
+* Genre: Стратегии
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
-* Release: Thursday, 26. September 2019
+* Release: 
 
 * [Source Code for Mindustry @ Source Code Repository](https://github.com/Anuken/Mindustry)
 * [Mindustry @ Steam](https://store.steampowered.com/app/1127400/)
@@ -185,9 +187,11 @@ With over 6 million units sold and unprecedented critical acclaim from fans and 
 
 <h3 id="spacetraders">SpaceTraders</h3>
 
+<img align="right" width="215" height="215" src="./generated/../assets/dummy-image.png" />
 
-* Genre: 
-* Available for 
+SpaceTraders is a space-themed economic game with HTTP endpoints for automating gameplay and building custom tools (A programmable API game for developers). It is an open-universe space-themed game that offers a set of HTTP endpoints to control a fleet of ships. All players operate their fleet in the same universe. Unlike a traditional game, SpaceTraders is headless and does not have a first-party client to play the game. Instead, you as the player are responsible for building your own client to interact with the API. This allows you to build your own UI, automate your trade routes, or just play the game from the comfort of your terminal.
+* Genre: Programming, Strategy, Simulation
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * Release: 
 * [Website of SpaceTraders](https://spacetraders.io/)
 * [Source Code for SpaceTraders @ Source Code Repository](https://github.com/SpaceTradersAPI/api-docs)

@@ -14,24 +14,24 @@
  },
  "image": "images/the-farmer-was-replaced.jpg",
  "german_content": {
-  "short_description": "Program and optimize a drone to automate a farm and watch it do the work for you. Collect resources to unlock better technology and become the most efficient farmer in the world. Improve your problem solving and coding skills.",
+  "short_description": "Programmiere und optimiere eine Drohne, um deine Farm zu automatisieren. Beobachte dann, wie sie die Arbeit für dich erledigt. Sammle Ressourcen, um Technologien freizuschalten und der effizienteste Landwirt der Welt zu werden. Verbessere deine Programmierfähigkeiten.",
   "categories": [
-   "Single-player",
-   "Adjustable Text Size",
-   "Camera Comfort",
-   "Custom Volume Controls",
-   "Playable without Timed Input",
-   "Save Anytime",
-   "Stereo Sound",
+   "Einzelspieler",
+   "Anpassbare Textgröße",
+   "Kamerakomfort",
+   "Benutzerdefinierte Lautstärkeregelung",
+   "Spielbar ohne zeitgesteuerte Eingabe",
+   "Jederzeit speichern",
+   "Stereo-Sound",
    "Steam Cloud",
-   "Steam Leaderboards",
-   "Family Sharing"
+   "Steam-Bestenlisten",
+   "Familienbibliothek"
   ],
   "genres": [
-   "Casual",
+   "Gelegenheitsspiele",
    "Indie",
-   "Simulation",
-   "Strategy",
+   "Simulationen",
+   "Strategie",
    "Early Access"
   ]
  },
