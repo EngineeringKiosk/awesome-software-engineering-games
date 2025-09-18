@@ -161,10 +161,10 @@ shapez is an easy-going, minimalistic factory building game about the automation
 
 <img align="right" width="215" height="215" src="./generated/images/shapez-2.jpg" />
 
-Dive into a factory-building game with the focus on just that – building huge space factories! Construct sprawling multi-level factories and satisfying production lines without limits. Tackle increasingly complex automation challenges at your own pace – you won’t have to worry about enemies.
-* Genre: Casual, Indie, Simulation, Strategy, Early Access
+深入体验字面意思所示的超大工厂建造世界！建设规模庞大的多层工厂，铺设稳健高效的自动产线，无限制地发挥您的规划才智。按自己的步调应对不断升级的自动化挑战——放轻松点，没有敌人出来捣乱。
+* Genre: 休闲, 独立, 模拟, 策略, 抢先体验
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
-* Release: Thursday, 15. August 2024
+* Release: 
 * [Website of shapez 2](https://tobspr.io)
 * [shapez 2 @ Steam](https://store.steampowered.com/app/2162800/)
 

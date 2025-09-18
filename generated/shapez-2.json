@@ -10,57 +10,57 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Aug 15, 2024"
+  "date": "2024 年 8 月 15 日"
  },
  "image": "images/shapez-2.jpg",
  "german_content": {
-  "short_description": "Stürze dich in ein waschechtes Fabrikbauspiel! Erschaffe gigantische Fabriken mit tollen Fertigungsstraßen über mehrere Ebenen und ohne Einschränkungen. Nimm immer komplexere Automatisierungsherausforderungen in deinem Tempo an, ohne dich um Gegner kümmern zu müssen.",
+  "short_description": "深入体验字面意思所示的超大工厂建造世界！建设规模庞大的多层工厂，铺设稳健高效的自动产线，无限制地发挥您的规划才智。按自己的步调应对不断升级的自动化挑战——放轻松点，没有敌人出来捣乱。",
   "categories": [
-   "Einzelspieler",
-   "Anpassbare Textgröße",
-   "Kamerakomfort",
-   "Farbalternativen",
-   "Benutzerdefinierte Lautstärkeregelung",
-   "Einstellbarer Schwierigkeitsgrad",
-   "Nur Tastatur",
-   "Nur Maus",
-   "Spielbar ohne zeitgesteuerte Eingabe",
-   "Jederzeit speichern",
-   "Optionen für Untertitel",
-   "Steam Cloud",
-   "Familienbibliothek"
+   "单人",
+   "可调整文字大小",
+   "视角舒适度",
+   "可选颜色",
+   "自定义音量控制",
+   "可调整难度",
+   "可以仅用键盘",
+   "可以仅用鼠标",
+   "无需应对快速反应事件",
+   "随时保存",
+   "字幕选项",
+   "Steam 云",
+   "家庭共享"
   ],
   "genres": [
-   "Gelegenheitsspiele",
-   "Indie",
-   "Simulationen",
-   "Strategie",
-   "Early Access"
+   "休闲",
+   "独立",
+   "模拟",
+   "策略",
+   "抢先体验"
   ]
  },
  "english_content": {
-  "short_description": "Dive into a factory-building game with the focus on just that – building huge space factories! Construct sprawling multi-level factories and satisfying production lines without limits. Tackle increasingly complex automation challenges at your own pace – you won’t have to worry about enemies.",
+  "short_description": "深入体验字面意思所示的超大工厂建造世界！建设规模庞大的多层工厂，铺设稳健高效的自动产线，无限制地发挥您的规划才智。按自己的步调应对不断升级的自动化挑战——放轻松点，没有敌人出来捣乱。",
   "categories": [
-   "Single-player",
-   "Adjustable Text Size",
-   "Camera Comfort",
-   "Color Alternatives",
-   "Custom Volume Controls",
-   "Adjustable Difficulty",
-   "Keyboard Only Option",
-   "Mouse Only Option",
-   "Playable without Timed Input",
-   "Save Anytime",
-   "Subtitle Options",
-   "Steam Cloud",
-   "Family Sharing"
+   "单人",
+   "可调整文字大小",
+   "视角舒适度",
+   "可选颜色",
+   "自定义音量控制",
+   "可调整难度",
+   "可以仅用键盘",
+   "可以仅用鼠标",
+   "无需应对快速反应事件",
+   "随时保存",
+   "字幕选项",
+   "Steam 云",
+   "家庭共享"
   ],
   "genres": [
-   "Casual",
-   "Indie",
-   "Simulation",
-   "Strategy",
-   "Early Access"
+   "休闲",
+   "独立",
+   "模拟",
+   "策略",
+   "抢先体验"
   ]
  }
 }
