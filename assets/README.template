@@ -12,6 +12,7 @@ A curated list of games for software engineers that have that certain something 
   {{- range $game := . }}
   * [{{ $game.Name }}](#{{ $game.Slug }})
   {{- end }}
+* [Still not enough?](#still-not-enough)
 * [How to contribute](#how-to-contribute)
 </ul>
 
@@ -43,6 +44,10 @@ A curated list of games for software engineers that have that certain something 
 
 ----
 {{ end }}
+
+## Still not enough?
+
+Take a look at [Awesome Engineering Games](https://github.com/arcataroger/awesome-engineering-games) (incl. the related [HackerNews discussion](https://news.ycombinator.com/item?id=38336688)) or at [Awesome Programming Games](https://github.com/readyready15728/awesome-programming-games).
 
 ## How to contribute
 
