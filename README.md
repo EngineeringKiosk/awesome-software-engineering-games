@@ -8,11 +8,12 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (16 games)
+* [Games](#games) (17 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Artifacts](#artifacts)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
+  * [JOY OF PROGRAMMING - Software Engineering Simulator](#joy-of-programming-software-engineering-simulator)
   * [Mindustry](#mindustry)
   * [Net.Attack()](#net-attack)
   * [Satisfactory](#satisfactory)
@@ -25,6 +26,7 @@ A curated list of games for software engineers that have that certain something 
   * [SpaceTraders](#spacetraders)
   * [The Farmer Was Replaced](#the-farmer-was-replaced)
   * [TIS-100](#tis-100)
+* [Still not enough?](#still-not-enough)
 * [How to contribute](#how-to-contribute)
 </ul>
 
@@ -79,6 +81,18 @@ Program little office workers to solve puzzles. Be a good employee! The machines
 * Release: Thursday, 15. October 2015
 * [Website of Human Resource Machine](http://tomorrowcorporation.com/humanresourcemachine)
 * [Human Resource Machine @ Steam](https://store.steampowered.com/app/375820/)
+
+----
+
+<h3 id="joy-of-programming-software-engineering-simulator">JOY OF PROGRAMMING - Software Engineering Simulator</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/joy-of-programming.jpg" />
+
+Use real Python code to automate machines, robots, drones and more: Program self-driving vehicles; crack passwords; apply machine learning; automate logistics; use image processing to guide missiles. Gain real coding skills and solve exciting bite-sized programming challenges.
+* Genre: Indie, Simulation, Strategy
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
+* Release: Saturday, 18. January 2025
+* [JOY OF PROGRAMMING - Software Engineering Simulator @ Steam](https://store.steampowered.com/app/2216770/)
 
 ----
 
@@ -244,6 +258,10 @@ TIS-100 is an open-ended programming game by Zachtronics, the creators of SpaceC
 
 ----
 
+
+## Still not enough?
+
+Take a look at [Awesome Engineering Games](https://github.com/arcataroger/awesome-engineering-games) (incl. the related [HackerNews discussion](https://news.ycombinator.com/item?id=38336688)) or at [Awesome Programming Games](https://github.com/readyready15728/awesome-programming-games).
 
 ## How to contribute
 

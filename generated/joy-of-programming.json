@@ -1,0 +1,53 @@
+{
+ "name": "JOY OF PROGRAMMING - Software Engineering Simulator",
+ "steamID": 2216770,
+ "slug": "joy-of-programming-software-engineering-simulator",
+ "platforms": {
+  "windows": true,
+  "mac": false,
+  "linux": false
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Jan 18, 2025"
+ },
+ "image": "images/joy-of-programming.jpg",
+ "german_content": {
+  "short_description": "Verwende echten Python-Code, um Maschinen, Roboter, Drohnen und mehr zu automatisieren: Entwickle selbstfahrende Autos; knacke Passwörter; automatisiere Logistik; Nutze Bildverarbeitung zur Rakensteuerung. Werde ein besserer Programmierer und löse spannende Herausforderungen.",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Statistiken",
+   "Steam-Bestenlisten",
+   "Enthält Level-Editor",
+   "Remote Play Together",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Indie",
+   "Simulationen",
+   "Strategie"
+  ]
+ },
+ "english_content": {
+  "short_description": "Use real Python code to automate machines, robots, drones and more: Program self-driving vehicles; crack passwords; apply machine learning; automate logistics; use image processing to guide missiles. Gain real coding skills and solve exciting bite-sized programming challenges.",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Stats",
+   "Steam Leaderboards",
+   "Includes level editor",
+   "Remote Play Together",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy"
+  ]
+ }
+}
