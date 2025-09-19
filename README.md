@@ -8,7 +8,7 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (15 games)
+* [Games](#games) (16 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Artifacts](#artifacts)
   * [Factorio](#factorio)
@@ -20,6 +20,7 @@ A curated list of games for software engineers that have that certain something 
   * [Screeps: World](#screeps-world)
   * [shapez](#shapez)
   * [shapez 2](#shapez-2)
+  * [SHENZHEN I/O](#shenzhen-i-o)
   * [Sid Meier&#39;s Civilization IV](#sid-meiers-civilization-iv)
   * [SpaceTraders](#spacetraders)
   * [The Farmer Was Replaced](#the-farmer-was-replaced)
@@ -175,6 +176,19 @@ Dive into a factory-building game with the focus on just that – building huge 
 * Release: Thursday, 15. August 2024
 * [Website of shapez 2](https://tobspr.io)
 * [shapez 2 @ Steam](https://store.steampowered.com/app/2162800/)
+
+----
+
+<h3 id="shenzhen-i-o">SHENZHEN I/O</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/shenzhen-io.jpg" />
+
+BUILD CIRCUITS. WRITE CODE. RTFM.
+* Genre: Indie, Simulation
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
+* Release: Thursday, 17. November 2016
+* [Website of SHENZHEN I/O](http://www.zachtronics.com/shenzhen-io/)
+* [SHENZHEN I/O @ Steam](https://store.steampowered.com/app/504210/)
 
 ----
 

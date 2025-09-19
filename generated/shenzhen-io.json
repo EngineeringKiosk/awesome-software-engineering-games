@@ -1,0 +1,48 @@
+{
+ "name": "SHENZHEN I/O",
+ "steamID": 504210,
+ "slug": "shenzhen-i-o",
+ "website": "http://www.zachtronics.com/shenzhen-io/",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Nov 17, 2016"
+ },
+ "image": "images/shenzhen-io.jpg",
+ "german_content": {
+  "short_description": "BUILD CIRCUITS. WRITE CODE. RTFM.",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Steam-Bestenlisten",
+   "Enthält Level-Editor",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Indie",
+   "Simulationen"
+  ]
+ },
+ "english_content": {
+  "short_description": "BUILD CIRCUITS. WRITE CODE. RTFM.",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Workshop",
+   "Steam Cloud",
+   "Steam Leaderboards",
+   "Includes level editor",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation"
+  ]
+ }
+}
