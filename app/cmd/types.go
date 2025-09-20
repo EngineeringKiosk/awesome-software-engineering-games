@@ -12,7 +12,7 @@ type GameInformation struct {
 	Repository   string `yaml:"repository" json:"repository,omitempty"`
 	Programmable bool   `yaml:"programmable" json:"programmable,omitempty"`
 
-	Website     string      `yaml:"website" json:"website,omitempty"`
+	Website     string      `yaml:"website" json:"website"`
 	RequiredAge int         `yaml:"required_age" json:"required_age,omitempty"`
 	IsFree      bool        `yaml:"is_free" json:"is_free,omitempty"`
 	Platforms   Platforms   `yaml:"platforms" json:"platforms,omitempty"`
