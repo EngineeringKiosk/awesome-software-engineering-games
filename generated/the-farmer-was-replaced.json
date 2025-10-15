@@ -10,13 +10,14 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Feb 10, 2023"
+  "date": "Oct 10, 2025"
  },
  "image": "images/the-farmer-was-replaced.jpg",
  "german_content": {
   "short_description": "Programmiere und optimiere eine Drohne, um deine Farm zu automatisieren. Beobachte dann, wie sie die Arbeit für dich erledigt. Sammle Ressourcen, um Technologien freizuschalten und der effizienteste Landwirt der Welt zu werden. Verbessere deine Programmierfähigkeiten.",
   "categories": [
    "Einzelspieler",
+   "Steam-Errungenschaften",
    "Anpassbare Textgröße",
    "Kamerakomfort",
    "Benutzerdefinierte Lautstärkeregelung",
@@ -31,14 +32,14 @@
    "Gelegenheitsspiele",
    "Indie",
    "Simulationen",
-   "Strategie",
-   "Early Access"
+   "Strategie"
   ]
  },
  "english_content": {
   "short_description": "Program and optimize a drone to automate a farm and watch it do the work for you. Collect resources to unlock better technology and become the most efficient farmer in the world. Improve your problem solving and coding skills.",
   "categories": [
    "Single-player",
+   "Steam Achievements",
    "Adjustable Text Size",
    "Camera Comfort",
    "Custom Volume Controls",
@@ -53,8 +54,7 @@
    "Casual",
    "Indie",
    "Simulation",
-   "Strategy",
-   "Early Access"
+   "Strategy"
   ]
  }
 }
