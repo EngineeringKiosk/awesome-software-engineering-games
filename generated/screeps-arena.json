@@ -12,39 +12,39 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Apr 7, 2022"
+  "date": "Nov 1, 2025"
  },
  "image": "images/screeps-arena.jpg",
  "german_content": {
-  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, wherein the core mechanic is programming your units AI. You write real JavaScript that fights autonomously against other players in a match-based arena environment.",
+  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, where the core mechanic is programming your units’ AI. You write real JavaScript that fights autonomously against other players in a 1v1 match-based arena environment.",
   "categories": [
    "Mehrspieler",
    "PvP",
    "Online-PvP",
    "Plattformübergreifender Mehrspieler",
+   "Steam-Errungenschaften",
    "Familienbibliothek"
   ],
   "genres": [
    "Indie",
    "Simulationen",
-   "Strategie",
-   "Early Access"
+   "Strategie"
   ]
  },
  "english_content": {
-  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, wherein the core mechanic is programming your units AI. You write real JavaScript that fights autonomously against other players in a match-based arena environment.",
+  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, where the core mechanic is programming your units’ AI. You write real JavaScript that fights autonomously against other players in a 1v1 match-based arena environment.",
   "categories": [
    "Multi-player",
    "PvP",
    "Online PvP",
    "Cross-Platform Multiplayer",
+   "Steam Achievements",
    "Family Sharing"
   ],
   "genres": [
    "Indie",
    "Simulation",
-   "Strategy",
-   "Early Access"
+   "Strategy"
   ]
  }
 }

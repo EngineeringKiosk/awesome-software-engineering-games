@@ -140,11 +140,11 @@ Satisfactory is a first-person open-world factory building game with a dash of e
 
 <img align="right" width="215" height="215" src="./generated/images/screeps-arena.jpg" />
 
-Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, wherein the core mechanic is programming your units AI. You write real JavaScript that fights autonomously against other players in a match-based arena environment.
-* Genre: Indie, Simulation, Strategy, Early Access
+Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, where the core mechanic is programming your units’ AI. You write real JavaScript that fights autonomously against other players in a 1v1 match-based arena environment.
+* Genre: Indie, Simulation, Strategy
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
-* Release: Thursday, 07. April 2022
+* Release: Saturday, 01. November 2025
 * [Website of Screeps: Arena](https://screeps.com)
 * [Source Code for Screeps: Arena @ Source Code Repository](https://github.com/screepers/screeps-arena-javascript-starter)
 * [Screeps: Arena @ Steam](https://store.steampowered.com/app/1137320/)
