@@ -16,7 +16,7 @@
  },
  "image": "images/screeps-arena.jpg",
  "german_content": {
-  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, where the core mechanic is programming your units’ AI. You write real JavaScript that fights autonomously against other players in a 1v1 match-based arena environment.",
+  "short_description": "Screeps: Arena ist ein Online-PvP-Strategiespiel für Programmierbegeisterte. Du schreibst echtes JavaScript, um deine Einheiten zu steuern, und sie kämpfen autonom gegen andere Spieler in einer 1-gegen-1-Arena mit Matchmaking.",
   "categories": [
    "Mehrspieler",
    "PvP",
@@ -32,7 +32,7 @@
   ]
  },
  "english_content": {
-  "short_description": "Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, where the core mechanic is programming your units’ AI. You write real JavaScript that fights autonomously against other players in a 1v1 match-based arena environment.",
+  "short_description": "Screeps: Arena is an online PvP strategy game for programming enthusiasts. You write real JavaScript to control your units, and they fight autonomously against other players in a 1v1 match-based arena environment.",
   "categories": [
    "Multi-player",
    "PvP",

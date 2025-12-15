@@ -114,7 +114,7 @@ An open-ended factory management game with RTS and tower defense elements.
 
 <img align="right" width="215" height="215" src="./generated/images/net-attack.jpg" />
 
-Unleash your inner hacker skills and code your way to victory in a game where complex algorithms and intuitive gameplay collide.Net.Attack() is a dynamic Top-Down Survivors-like Roguelite where you create your own abilities using programming.
+CODE OR DIE! Hack enemy systems &amp;amp; survive the security response by engineering lethal bullet-heaven algorithms. Your brain power determines your firepower across 150&#43; programming nodes. Debug your failures. Optimize your code. Complete the heist. HACK THE PLANET!
 * Genre: Action, Indie, Early Access
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
 * Release: Thursday, 19. June 2025
@@ -140,7 +140,7 @@ Satisfactory is a first-person open-world factory building game with a dash of e
 
 <img align="right" width="215" height="215" src="./generated/images/screeps-arena.jpg" />
 
-Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, where the core mechanic is programming your units’ AI. You write real JavaScript that fights autonomously against other players in a 1v1 match-based arena environment.
+Screeps: Arena is an online PvP strategy game for programming enthusiasts. You write real JavaScript to control your units, and they fight autonomously against other players in a 1v1 match-based arena environment.
 * Genre: Indie, Simulation, Strategy
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
@@ -155,7 +155,7 @@ Screeps: Arena is an online RTS PvP strategy game for programming enthusiasts, w
 
 <img align="right" width="215" height="215" src="./generated/images/screeps-world.jpg" />
 
-Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts, wherein the core mechanic is programming your units AI. You control your colony by writing JavaScript which operates 24/7 in the single persistent open world filled by other players on par with you.
+Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts. You control your colony by writing JavaScript code that executes 24/7 in a massive, persistent world alongside other programmers.
 * Genre: Indie, Massively Multiplayer, Simulation, Strategy
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
