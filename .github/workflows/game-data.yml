@@ -44,7 +44,7 @@ jobs:
         run: ./awesome-software-engineering-games convertJsonToReadme --json-directory ../generated --readme-template ../assets/README.template --readme-output ../README.md
 
       # Commit results back to repository
-      - uses: stefanzweifel/git-auto-commit-action@v6.0.1
+      - uses: stefanzweifel/git-auto-commit-action@v7.1.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
