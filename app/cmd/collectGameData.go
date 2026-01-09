@@ -4,6 +4,7 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
+	"html"
 	"io"
 	"log"
 	"net/http"
@@ -240,7 +241,11 @@ func downloadFile(address, fileName string) (*http.Response, error) {
 
 func getLanguageContent(game *steam.Game) LanguageContent {
 	content := LanguageContent{
-		ShortDescription: game.ShortDescription,
+		// Steam API returns HTML-encoded content (e.g., "&amp;" for "&").
+		// We decode it here to store plain text. The html/template package
+		// used in convertJsonToReadme.go will safely re-encode when rendering,
+		// preventing double-encoding issues while maintaining XSS protection.
+		ShortDescription: html.UnescapeString(game.ShortDescription),
 		Categories:       []string{},
 		Genres:           []string{},
 	}
