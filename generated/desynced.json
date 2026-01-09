@@ -1,0 +1,56 @@
+{
+ "name": "Desynced",
+ "steamID": 1450900,
+ "slug": "desynced",
+ "website": "https://www.desyncedgame.com/",
+ "platforms": {
+  "windows": true,
+  "mac": false,
+  "linux": false
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Aug 15, 2023"
+ },
+ "image": "images/desynced.jpg",
+ "german_content": {
+  "short_description": "Desynced ist ein Strategiespiel mit vollständig anpassbaren Einheiten und Verhaltensweisen. Sammle, baue, forsche und erkunde das Unbekannte. Enthülle das Geheimnis einer KI am Rande des Selbstbewusstseins und entdecke die versteckte Wahrheit in dieser Mischung aus Strategie und Automatisierung.",
+  "categories": [
+   "Einzelspieler",
+   "Mehrspieler",
+   "PvP",
+   "Online-PvP",
+   "Koop",
+   "Online-Koop",
+   "Steam Workshop",
+   "Teilweise Controllerunterstützung",
+   "Steam Cloud",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Simulationen",
+   "Strategie",
+   "Early Access"
+  ]
+ },
+ "english_content": {
+  "short_description": "Desynced is a sci-fi strategy game with fully customizable units and behaviors. Gather, build, research, and explore the unknown. Alone or with friends, unveil the mystery of an AI on the edge of self-awareness and uncover the hidden truth in this blend of strategy, automation, and exploration.",
+  "categories": [
+   "Single-player",
+   "Multi-player",
+   "PvP",
+   "Online PvP",
+   "Co-op",
+   "Online Co-op",
+   "Steam Workshop",
+   "Partial Controller Support",
+   "Steam Cloud",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ]
+ }
+}

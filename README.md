@@ -8,9 +8,10 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (17 games)
+* [Games](#games) (18 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Artifacts](#artifacts)
+  * [Desynced](#desynced)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
   * [JOY OF PROGRAMMING - Software Engineering Simulator](#joy-of-programming-software-engineering-simulator)
@@ -55,6 +56,19 @@ Artifacts is a sandbox MMORPG designed for code lovers, where you control your c
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * [Website of Artifacts](https://www.artifactsmmo.com/)
+
+----
+
+<h3 id="desynced">Desynced</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/desynced.jpg" />
+
+Desynced is a sci-fi strategy game with fully customizable units and behaviors. Gather, build, research, and explore the unknown. Alone or with friends, unveil the mystery of an AI on the edge of self-awareness and uncover the hidden truth in this blend of strategy, automation, and exploration.
+* Genre: Simulation, Strategy, Early Access
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
+* Release: Tuesday, 15. August 2023
+* [Website of Desynced](https://www.desyncedgame.com/)
+* [Desynced @ Steam](https://store.steampowered.com/app/1450900/)
 
 ----
 
