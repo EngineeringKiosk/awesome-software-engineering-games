@@ -1,0 +1,48 @@
+{
+ "name": "Craftomation 101: Programming \u0026 Craft",
+ "steamID": 1724140,
+ "slug": "craftomation-101-programming-and-craft",
+ "website": "https://luden.io/craftomation/",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Feb 19, 2024"
+ },
+ "image": "images/craftomation-101.jpg",
+ "german_content": {
+  "short_description": "Du landest auf einem eisigen Planeten in einer winzigen Rakete mit einem Roboter an Bord. Baue Ressourcen ab und kombiniere sie, um neue zu entdecken. Verwende visuelle Programmierung, damit der Roboter die mühsame Arbeit für dich übernimmt.",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam-Sammelkarten",
+   "Steam Cloud",
+   "Familienbibliothek"
+  ],
+  "genres": [
+   "Indie",
+   "Simulationen",
+   "Strategie",
+   "Early Access"
+  ]
+ },
+ "english_content": {
+  "short_description": "You land on a frozen planet in a tiny rocket with a robot inside. Harvest and combine materials to discover new ones. Use visual programming to make the robot do the tiresome work for you. Slowly build a gang of self-sustaining robot workers and watch them terraform the planet.",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Trading Cards",
+   "Steam Cloud",
+   "Family Sharing"
+  ],
+  "genres": [
+   "Indie",
+   "Simulation",
+   "Strategy",
+   "Early Access"
+  ]
+ }
+}

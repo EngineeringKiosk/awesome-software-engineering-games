@@ -8,9 +8,10 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (18 games)
+* [Games](#games) (19 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Artifacts](#artifacts)
+  * [Craftomation 101: Programming &amp; Craft](#craftomation-101-programming-and-craft)
   * [Desynced](#desynced)
   * [Factorio](#factorio)
   * [Human Resource Machine](#human-resource-machine)
@@ -56,6 +57,19 @@ Artifacts is a sandbox MMORPG designed for code lovers, where you control your c
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * [Website of Artifacts](https://www.artifactsmmo.com/)
+
+----
+
+<h3 id="craftomation-101-programming-and-craft">Craftomation 101: Programming &amp; Craft</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/craftomation-101.jpg" />
+
+You land on a frozen planet in a tiny rocket with a robot inside. Harvest and combine materials to discover new ones. Use visual programming to make the robot do the tiresome work for you. Slowly build a gang of self-sustaining robot workers and watch them terraform the planet.
+* Genre: Indie, Simulation, Strategy, Early Access
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
+* Release: Monday, 19. February 2024
+* [Website of Craftomation 101: Programming &amp; Craft](https://luden.io/craftomation/)
+* [Craftomation 101: Programming &amp; Craft @ Steam](https://store.steampowered.com/app/1724140/)
 
 ----
 
