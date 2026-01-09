@@ -142,7 +142,7 @@ An open-ended factory management game with RTS and tower defense elements.
 
 <img align="right" width="215" height="215" src="./generated/images/net-attack.jpg" />
 
-CODE OR DIE! Hack enemy systems &amp;amp; survive the security response by engineering lethal bullet-heaven algorithms. Your brain power determines your firepower across 150&#43; programming nodes. Debug your failures. Optimize your code. Complete the heist. HACK THE PLANET!
+CODE OR DIE! Hack enemy systems &amp; survive the security response by engineering lethal bullet-heaven algorithms. Your brain power determines your firepower across 150&#43; programming nodes. Debug your failures. Optimize your code. Complete the heist. HACK THE PLANET!
 * Genre: Action, Indie, Early Access
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
 * Release: Thursday, 19. June 2025
