@@ -5,7 +5,7 @@
  "website": "https://www.metaroot.ch/press-kit/the-farmer-was-replaced",
  "platforms": {
   "windows": true,
-  "mac": false,
+  "mac": true,
   "linux": false
  },
  "release_date": {

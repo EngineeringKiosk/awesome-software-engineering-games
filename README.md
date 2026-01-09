@@ -238,7 +238,7 @@ SpaceTraders is a space-themed economic game with HTTP endpoints for automating 
 
 Program and optimize a drone to automate a farm and watch it do the work for you. Collect resources to unlock better technology and become the most efficient farmer in the world. Improve your problem solving and coding skills.
 * Genre: Casual, Indie, Simulation, Strategy
-* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/>
 * Release: Friday, 10. October 2025
 * [Website of The Farmer Was Replaced](https://www.metaroot.ch/press-kit/the-farmer-was-replaced)
 * [The Farmer Was Replaced @ Steam](https://store.steampowered.com/app/2060160/)
