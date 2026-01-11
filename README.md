@@ -8,9 +8,10 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (19 games)
+* [Games](#games) (20 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Artifacts](#artifacts)
+  * [Bitburner](#bitburner)
   * [Craftomation 101: Programming &amp; Craft](#craftomation-101-programming-and-craft)
   * [Desynced](#desynced)
   * [Factorio](#factorio)
@@ -57,6 +58,19 @@ Artifacts is a sandbox MMORPG designed for code lovers, where you control your c
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * [Website of Artifacts](https://www.artifactsmmo.com/)
+
+----
+
+<h3 id="bitburner">Bitburner</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/bitburner.jpg" />
+
+Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.
+* Genre: Free To Play
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
+* Release: Friday, 10. December 2021
+* [Website of Bitburner](https://bitburner-official.github.io/)
+* [Bitburner @ Steam](https://store.steampowered.com/app/1812820/)
 
 ----
 

@@ -1,0 +1,39 @@
+{
+ "name": "Bitburner",
+ "steamID": 1812820,
+ "slug": "bitburner",
+ "website": "https://bitburner-official.github.io/",
+ "is_free": true,
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": "Dec 10, 2021"
+ },
+ "image": "images/bitburner.jpg",
+ "german_content": {
+  "short_description": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
+  "categories": [
+   "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam Cloud"
+  ],
+  "genres": [
+   "Kostenlos spielbar"
+  ]
+ },
+ "english_content": {
+  "short_description": "Bitburner is a programming-based incremental game. Write scripts in JavaScript to automate gameplay, learn skills, play minigames, solve puzzles, and more in this cyberpunk text-based incremental RPG.",
+  "categories": [
+   "Single-player",
+   "Steam Achievements",
+   "Steam Cloud"
+  ],
+  "genres": [
+   "Free To Play"
+  ]
+ }
+}
