@@ -92,9 +92,9 @@ You land on a frozen planet in a tiny rocket with a robot inside. Harvest and co
 <img align="right" width="215" height="215" src="./generated/images/desynced.jpg" />
 
 Desynced is a sci-fi strategy game with fully customizable units and behaviors. Gather, build, research, and explore the unknown. Alone or with friends, unveil the mystery of an AI on the edge of self-awareness and uncover the hidden truth in this blend of strategy, automation, and exploration.
-* Genre: Simulation, Strategy, Early Access
+* Genre: Simulation, Strategy
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
-* Release: Tuesday, 15. August 2023
+* Release: Thursday, 05. March 2026
 * [Website of Desynced](https://www.desyncedgame.com/)
 * [Desynced @ Steam](https://store.steampowered.com/app/1450900/)
 
@@ -156,10 +156,10 @@ An open-ended factory management game with RTS and tower defense elements.
 
 <img align="right" width="215" height="215" src="./generated/images/net-attack.jpg" />
 
-CODE OR DIE! Hack enemy systems &amp; survive the security response by engineering lethal bullet-heaven algorithms. Your brain power determines your firepower across 150&#43; programming nodes. Debug your failures. Optimize your code. Complete the heist. HACK THE PLANET!
-* Genre: Action, Indie, Early Access
+CODE OR DIE! Hack enemy systems &amp; survive the security response by engineering lethal bullet-heaven algorithms. Your brain power determines your firepower across 190&#43; programming nodes. Debug your failures. Optimize your code. Complete the heist. HACK THE PLANET!
+* Genre: Action, Indie
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/>
-* Release: Thursday, 19. June 2025
+* Release: Thursday, 12. March 2026
 * [Website of Net.Attack()](https://www.byterockers.games/)
 * [Net.Attack() @ Steam](https://store.steampowered.com/app/3047370/)
 
@@ -182,7 +182,7 @@ Satisfactory is a first-person open-world factory building game with a dash of e
 
 <img align="right" width="215" height="215" src="./generated/images/screeps-arena.jpg" />
 
-Screeps: Arena is an online PvP strategy game for programming enthusiasts. You write real JavaScript to control your units, and they fight autonomously against other players in a 1v1 match-based arena environment.
+Screeps: Arena is an online asynchronous PvP strategy game for programming enthusiasts. You write real JavaScript to control your units, and they fight autonomously against other players in a 1v1 match-based arena environment.
 * Genre: Indie, Simulation, Strategy
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
@@ -226,7 +226,7 @@ shapez is an easy-going, minimalistic factory building game about the automation
 
 <img align="right" width="215" height="215" src="./generated/images/shapez-2.jpg" />
 
-Dive into a factory-building game with the focus on just that – building huge space factories! Construct sprawling multi-level factories and satisfying production lines without limits. Tackle increasingly complex automation challenges at your own pace – you won’t have to worry about enemies.
+Dive into a factory-building game with the focus on just that – building huge space factories! Design sprawling multi-level factories and satisfying production lines without limits. Tackle progressively challenging automation goals at your own pace, without the threat of enemies.
 * Genre: Casual, Indie, Simulation, Strategy, Early Access
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * Release: Thursday, 15. August 2024

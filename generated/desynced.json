@@ -10,7 +10,7 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Aug 15, 2023"
+  "date": "Mar 5, 2026"
  },
  "image": "images/desynced.jpg",
  "german_content": {
@@ -29,8 +29,7 @@
   ],
   "genres": [
    "Simulationen",
-   "Strategie",
-   "Early Access"
+   "Strategie"
   ]
  },
  "english_content": {
@@ -49,8 +48,7 @@
   ],
   "genres": [
    "Simulation",
-   "Strategy",
-   "Early Access"
+   "Strategy"
   ]
  }
 }
