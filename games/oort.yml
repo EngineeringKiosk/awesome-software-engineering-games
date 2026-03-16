@@ -1,0 +1,18 @@
+name: Oort
+steamID: 0
+website: https://oort.rs/
+repository: https://github.com/rlane/oort3
+programmable: true
+
+# Manual added information, as this game is not available on Steam (where we pull most of the information from).
+platforms:
+  windows: true
+  mac: true
+  linux: true
+release_date:
+  date: "" # Unknown release date
+english_content:
+  short_description: "Oort is a 'programming game' where you write Rust code to control a fleet of spaceships. Your code is responsible for the engines, weapons, radar, and communications of ships ranging from tiny missiles to massive cruisers."
+  genres:
+    - "Programming"
+    - "Simulation"
