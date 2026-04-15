@@ -16,7 +16,7 @@
  },
  "image": "images/screeps-world.jpg",
  "german_content": {
-  "short_description": "Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts. You control your colony by writing JavaScript code that executes 24/7 in a massive, persistent world alongside other programmers.",
+  "short_description": "Screeps: World ist ein Open-Source-MMO-Strategie-Sandbox-Spiel für Programmierbegeisterte. Du steuerst deine Kolonie mit JavaScript-Code, der rund um die Uhr in der riesigen, persistenten Online-Open-World ausgeführt wird.",
   "categories": [
    "Einzelspieler",
    "Mehrspieler",
@@ -38,7 +38,7 @@
   ]
  },
  "english_content": {
-  "short_description": "Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts. You control your colony by writing JavaScript code that executes 24/7 in a massive, persistent world alongside other programmers.",
+  "short_description": "Screeps: World is an open source MMO strategy sandbox game for programming enthusiasts. You control your colony by writing JavaScript code that operates 24/7 in the huge persistent online open world.",
   "categories": [
    "Single-player",
    "Multi-player",

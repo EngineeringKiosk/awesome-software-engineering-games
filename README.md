@@ -197,7 +197,7 @@ Screeps: Arena is an online asynchronous PvP strategy game for programming enthu
 
 <img align="right" width="215" height="215" src="./generated/images/screeps-world.jpg" />
 
-Screeps: World is an open source MMO RTS sandbox game for programming enthusiasts. You control your colony by writing JavaScript code that executes 24/7 in a massive, persistent world alongside other programmers.
+Screeps: World is an open source MMO strategy sandbox game for programming enthusiasts. You control your colony by writing JavaScript code that operates 24/7 in the huge persistent online open world.
 * Genre: Indie, Massively Multiplayer, Simulation, Strategy
 * Programmable: Yes 🤖
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
@@ -230,7 +230,7 @@ Dive into a factory-building game with the focus on just that – building huge 
 * Genre: Casual, Indie, Simulation, Strategy, Early Access
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * Release: Thursday, 15. August 2024
-* [Website of shapez 2](https://tobspr.io)
+* [Website of shapez 2](https://shapez2.com/)
 * [shapez 2 @ Steam](https://store.steampowered.com/app/2162800/)
 
 ----
