@@ -10,13 +10,15 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Aug 15, 2024"
+  "date": "Apr 23, 2026"
  },
  "image": "images/shapez-2.jpg",
  "german_content": {
   "short_description": "Stürze dich in ein Fabrikbauspiel, in dem du riesige Weltraumfabriken baust! Entwirf gigantische Fabriken über mehrere Ebenen und Fertigungsstraßen ohne Einschränkungen. Nimm immer komplexere Automatisierungsaufgaben in deinem Tempo an, ohne dich um Gegner kümmern zu müssen.",
   "categories": [
    "Einzelspieler",
+   "Steam-Errungenschaften",
+   "Steam Workshop",
    "Anpassbare Textgröße",
    "Kamerakomfort",
    "Farbalternativen",
@@ -24,6 +26,7 @@
    "Einstellbarer Schwierigkeitsgrad",
    "Spielbar ohne zeitgesteuerte Eingabe",
    "Jederzeit speichern",
+   "Stereo-Sound",
    "Optionen für Untertitel",
    "Steam Cloud",
    "Familienbibliothek"
@@ -32,14 +35,15 @@
    "Gelegenheitsspiele",
    "Indie",
    "Simulationen",
-   "Strategie",
-   "Early Access"
+   "Strategie"
   ]
  },
  "english_content": {
   "short_description": "Dive into a factory-building game with the focus on just that – building huge space factories! Design sprawling multi-level factories and satisfying production lines without limits. Tackle progressively challenging automation goals at your own pace, without the threat of enemies.",
   "categories": [
    "Single-player",
+   "Steam Achievements",
+   "Steam Workshop",
    "Adjustable Text Size",
    "Camera Comfort",
    "Color Alternatives",
@@ -47,6 +51,7 @@
    "Adjustable Difficulty",
    "Playable without Timed Input",
    "Save Anytime",
+   "Stereo Sound",
    "Subtitle Options",
    "Steam Cloud",
    "Family Sharing"
@@ -55,8 +60,7 @@
    "Casual",
    "Indie",
    "Simulation",
-   "Strategy",
-   "Early Access"
+   "Strategy"
   ]
  }
 }
