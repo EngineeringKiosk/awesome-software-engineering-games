@@ -14,6 +14,12 @@ import (
 	"github.com/EngineeringKiosk/awesome-software-engineering-games/io"
 )
 
+// defaultGameImage is the placeholder image used when a non-Steam game's YAML
+// file does not specify an 'image' field. The path is expressed relative to the
+// 'generated/' folder, matching the convention used by manually authored entries
+// such as games/artifacts.yml.
+const defaultGameImage = "../assets/dummy-image.png"
+
 // convertYamlToJsonCmd represents the convertYamlToJson command
 var convertYamlToJsonCmd = &cobra.Command{
 	Use:   "convertYamlToJson",
@@ -112,6 +118,15 @@ func cmdConvertYamlToJson(cmd *cobra.Command, args []string) error {
 
 		// Add generated fields
 		gameInfo.Slug = slug.Make(gameInfo.Name)
+
+		// Non-Steam games (SteamID == 0) carry their cover artwork via the YAML
+		// 'image' field. If that field is missing, fall back to a checked-in
+		// placeholder so the pipeline can complete, and surface a warning so the
+		// gap is visible in CI output.
+		if gameInfo.SteamID == 0 && len(gameInfo.Image) == 0 {
+			log.Printf("WARNING: %s has no 'image' field set in YAML; falling back to default %s. Add a real cover at games/images/<slug>.<ext> and set 'image: ../games/images/<slug>.<ext>' in the YAML to replace it.", absYamlFilePath, defaultGameImage)
+			gameInfo.Image = defaultGameImage
+		}
 
 		// Dump data into JSON file
 		log.Printf("Write %s to disk ...", absJsonFilePath)
