@@ -9,7 +9,9 @@ If you want to change the `README.md` file, please make your changes to `assets/
 
 ## Extending the *yml* format in `/games`
 
-If you aim to modify (add, change, or remove) a YAML property in the `/games/*.yml`, please ensure that you make this change in all *.yml* files.
+Game files in `/games` may use either the `.yml` or `.yaml` extension; both are loaded by the tooling.
+
+If you aim to modify (add, change, or remove) a YAML property in `/games/*.yml` (or `/games/*.yaml`), please ensure that you make this change in all YAML files.
 
 Our tooling in `/app` also needs adjustment.
 Mainly in

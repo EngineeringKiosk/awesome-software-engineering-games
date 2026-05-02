@@ -37,7 +37,7 @@ Instead, it provides you with background on the thought process during the crite
 
 :warning: **The main [`README.md`](/README.md) is a rendered version of the data. Do not edit it manually.**
 
-To add a new game, please create a `.yml` file in the [`/games`](/games) directory like `/games/<game-name>.yml`. 
+To add a new game, please create a `.yml` (or `.yaml`) file in the [`/games`](/games) directory like `/games/<game-name>.yml`. 
 Feel free to check out a few other YAML files in that directory to see what it should look like.
 
 | Field                        | Type               | Description                                                                                |
