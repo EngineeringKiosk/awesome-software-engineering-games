@@ -8,7 +8,7 @@ A curated list of games for software engineers that have that certain something 
 
 ## Table of Contents
 
-* [Games](#games) (20 games)
+* [Games](#games) (21 games)
   * [7 Billion Humans](#7-billion-humans)
   * [Artifacts](#artifacts)
   * [Bitburner](#bitburner)
@@ -19,6 +19,7 @@ A curated list of games for software engineers that have that certain something 
   * [JOY OF PROGRAMMING - Software Engineering Simulator](#joy-of-programming-software-engineering-simulator)
   * [Mindustry](#mindustry)
   * [Net.Attack()](#net-attack)
+  * [Oort](#oort)
   * [Satisfactory](#satisfactory)
   * [Screeps: Arena](#screeps-arena)
   * [Screeps: World](#screeps-world)
@@ -162,6 +163,19 @@ CODE OR DIE! Hack enemy systems &amp; survive the security response by engineeri
 * Release: Thursday, 12. March 2026
 * [Website of Net.Attack()](https://www.byterockers.games/)
 * [Net.Attack() @ Steam](https://store.steampowered.com/app/3047370/)
+
+----
+
+<h3 id="oort">Oort</h3>
+
+<img align="right" width="215" height="215" src="./generated/images/oort.png" />
+
+Oort is a &#39;programming game&#39; where you write Rust code to control a fleet of spaceships. Your code is responsible for the engines, weapons, radar, and communications of ships ranging from tiny missiles to massive cruisers.
+* Genre: Programming, Simulation
+* Programmable: Yes 🤖
+* Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
+* [Website of Oort](https://oort.rs/)
+* [Source Code for Oort @ Source Code Repository](https://github.com/rlane/oort3)
 
 ----
 

@@ -1,0 +1,32 @@
+{
+ "name": "Oort",
+ "steamID": 0,
+ "slug": "oort",
+ "repository": "https://github.com/rlane/oort3",
+ "programmable": true,
+ "website": "https://oort.rs/",
+ "platforms": {
+  "windows": true,
+  "mac": true,
+  "linux": true
+ },
+ "release_date": {
+  "coming_soon": false,
+  "date": ""
+ },
+ "image": "images/oort.png",
+ "german_content": {
+  "short_description": "Oort ist ein „Programmierspiel“, bei dem du Rust-Code schreibst, um eine Flotte von Raumschiffen zu steuern. Dein Code ist für die Triebwerke, Waffen, das Radar und die Kommunikation der Schiffe verantwortlich, die von winzigen Raketen bis hin zu riesigen Kreuzern reichen.",
+  "genres": [
+   "Programmierung",
+   "Simulation"
+  ]
+ },
+ "english_content": {
+  "short_description": "Oort is a 'programming game' where you write Rust code to control a fleet of spaceships. Your code is responsible for the engines, weapons, radar, and communications of ships ranging from tiny missiles to massive cruisers.",
+  "genres": [
+   "Programming",
+   "Simulation"
+  ]
+ }
+}
