@@ -38,6 +38,9 @@ A curated list of games for software engineers that have that certain something 
 {{- if $game.Repository }}
 * [Source Code for {{ $game.Name }} @ Source Code Repository]({{ $game.Repository }})
 {{- end }}
+{{- if $game.HasOpenSourceLicense }}
+* License: [{{ $game.License.SPDXID }}]({{ $game.License.URL }})
+{{- end }}
 {{- if $game.SteamID }}
 * [{{ $game.Name }} @ Steam](https://store.steampowered.com/app/{{ $game.SteamID }}/)
 {{- end }}

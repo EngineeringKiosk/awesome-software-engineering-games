@@ -19,9 +19,19 @@ type GameInformation struct {
 	ReleaseDate ReleaseDate `yaml:"release_date" json:"release_date,omitempty"`
 	Image       string      `yaml:"image" json:"image,omitempty"`
 
+	// License is fetched from the GitHub API for games whose Repository field
+	// points at github.com. Cached in the JSON file; never sourced from YAML.
+	License *License `json:"license,omitempty"`
+
 	// German
 	GermanContent  LanguageContent `yaml:"german_content" json:"german_content,omitempty"`
 	EnglishContent LanguageContent `yaml:"english_content" json:"english_content,omitempty"`
+}
+
+type License struct {
+	SPDXID string `json:"spdx_id,omitempty"`
+	Name   string `json:"name,omitempty"`
+	URL    string `json:"url,omitempty"`
 }
 
 type LanguageContent struct {
@@ -56,6 +66,13 @@ func (g GameInformation) GetReleaseDate() string {
 	}
 
 	return ""
+}
+
+// HasOpenSourceLicense reports whether GitHub detected an open source license
+// for this game's repository. We trust GitHub's detection: any non-empty SPDX
+// ID other than the sentinel "NOASSERTION" counts.
+func (g GameInformation) HasOpenSourceLicense() bool {
+	return g.License != nil && g.License.SPDXID != "" && g.License.SPDXID != "NOASSERTION"
 }
 
 func (g GameInformation) GenresAsList() string {

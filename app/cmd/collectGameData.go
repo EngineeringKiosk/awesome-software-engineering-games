@@ -14,8 +14,10 @@ import (
 	"strings"
 	"time"
 
+	gh "github.com/google/go-github/v85/github"
 	"github.com/spf13/cobra"
 
+	ghutil "github.com/EngineeringKiosk/awesome-software-engineering-games/github"
 	libIO "github.com/EngineeringKiosk/awesome-software-engineering-games/io"
 	"github.com/EngineeringKiosk/awesome-software-engineering-games/steam"
 )
@@ -62,6 +64,7 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 	log.Printf("%d files found with extension %s in directory %s", len(jsonFiles), libIO.JSONExtension, jsonDir)
 
 	steamClient := steam.NewClient(nil)
+	ghClient := gh.NewClient(nil)
 
 	for _, f := range jsonFiles {
 		absJsonFilePath := filepath.Join(jsonDir, f.Name())
@@ -195,6 +198,34 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 				}
 
 				gameInfo.Image = filepath.Join(imageFolder, imageFileName)
+			}
+		}
+
+		// Fetch GitHub license info when the repository is hosted on github.com.
+		// We trust GitHub's license detection (any non-empty SPDX ID that isn't
+		// "NOASSERTION"). On transient errors we keep the previously cached value
+		// loaded from the JSON file rather than blanking it.
+		if gameInfo.Repository != "" {
+			owner, repo, ok := ghutil.ParseRepoURL(gameInfo.Repository)
+			if !ok {
+				log.Printf("Skipping license lookup for %s: %q is not a github.com URL", gameInfo.Name, gameInfo.Repository)
+			} else {
+				log.Printf("Requesting 'Repositories.License' from GitHub for %s/%s ...", owner, repo)
+				lic, resp, err := ghClient.Repositories.License(context.Background(), owner, repo)
+				switch {
+				case err == nil:
+					gameInfo.License = &License{
+						SPDXID: lic.GetLicense().GetSPDXID(),
+						Name:   lic.GetLicense().GetName(),
+						URL:    lic.GetHTMLURL(),
+					}
+					log.Printf("Requesting 'Repositories.License' from GitHub for %s/%s ... successful (%s)", owner, repo, gameInfo.License.SPDXID)
+				case resp != nil && resp.StatusCode == http.StatusNotFound:
+					log.Printf("No license detected by GitHub for %s/%s; clearing cached value", owner, repo)
+					gameInfo.License = nil
+				default:
+					log.Printf("WARNING: GitHub license lookup for %s/%s failed: %v. Keeping previously cached license (if any).", owner, repo, err)
+				}
 			}
 		}
 
