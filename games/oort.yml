@@ -5,6 +5,7 @@ repository: https://github.com/rlane/oort3
 programmable: true
 
 # Manual added information, as this game is not available on Steam (where we pull most of the information from).
+image: ../games/images/oort.png # Relative path to the image from the `generated` folder.
 platforms:
   windows: true
   mac: true
