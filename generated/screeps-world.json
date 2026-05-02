@@ -15,6 +15,11 @@
   "date": "Nov 16, 2016"
  },
  "image": "images/screeps-world.jpg",
+ "license": {
+  "spdx_id": "ISC",
+  "name": "ISC License",
+  "url": "https://github.com/screeps/screeps/blob/master/LICENSE.txt"
+ },
  "german_content": {
   "short_description": "Screeps: World ist ein Open-Source-MMO-Strategie-Sandbox-Spiel für Programmierbegeisterte. Du steuerst deine Kolonie mit JavaScript-Code, der rund um die Uhr in der riesigen, persistenten Online-Open-World ausgeführt wird.",
   "categories": [

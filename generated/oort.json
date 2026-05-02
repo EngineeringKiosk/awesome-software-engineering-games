@@ -15,6 +15,11 @@
   "date": ""
  },
  "image": "images/oort.png",
+ "license": {
+  "spdx_id": "GPL-3.0",
+  "name": "GNU General Public License v3.0",
+  "url": "https://github.com/rlane/oort3/blob/master/LICENSE"
+ },
  "german_content": {
   "short_description": "Oort ist ein „Programmierspiel“, bei dem du Rust-Code schreibst, um eine Flotte von Raumschiffen zu steuern. Dein Code ist für die Triebwerke, Waffen, das Radar und die Kommunikation der Schiffe verantwortlich, die von winzigen Raketen bis hin zu riesigen Kreuzern reichen.",
   "genres": [

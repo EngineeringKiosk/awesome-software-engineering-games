@@ -149,6 +149,7 @@ An open-ended factory management game with RTS and tower defense elements.
 * Release: Thursday, 26. September 2019
 * [Website of Mindustry](https://mindustrygame.github.io/)
 * [Source Code for Mindustry @ Source Code Repository](https://github.com/Anuken/Mindustry)
+* License: [GPL-3.0](https://github.com/Anuken/Mindustry/blob/master/LICENSE)
 * [Mindustry @ Steam](https://store.steampowered.com/app/1127400/)
 
 ----
@@ -176,6 +177,7 @@ Oort is a &#39;programming game&#39; where you write Rust code to control a flee
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
 * [Website of Oort](https://oort.rs/)
 * [Source Code for Oort @ Source Code Repository](https://github.com/rlane/oort3)
+* License: [GPL-3.0](https://github.com/rlane/oort3/blob/master/LICENSE)
 
 ----
 
@@ -218,6 +220,7 @@ Screeps: World is an open source MMO strategy sandbox game for programming enthu
 * Release: Wednesday, 16. November 2016
 * [Website of Screeps: World](https://screeps.com)
 * [Source Code for Screeps: World @ Source Code Repository](https://github.com/screeps/screeps)
+* License: [ISC](https://github.com/screeps/screeps/blob/master/LICENSE.txt)
 * [Screeps: World @ Steam](https://store.steampowered.com/app/464350/)
 
 ----
@@ -232,6 +235,7 @@ shapez is an easy-going, minimalistic factory building game about the automation
 * Release: Sunday, 07. June 2020
 * [Website of shapez](https://shapez.io)
 * [Source Code for shapez @ Source Code Repository](https://github.com/tobspr-games/shapez.io)
+* License: [GPL-3.0](https://github.com/tobspr-games/shapez.io/blob/master/LICENSE)
 * [shapez @ Steam](https://store.steampowered.com/app/1318690/)
 
 ----

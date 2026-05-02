@@ -14,6 +14,11 @@
   "date": "Jun 7, 2020"
  },
  "image": "images/shapez.jpg",
+ "license": {
+  "spdx_id": "GPL-3.0",
+  "name": "GNU General Public License v3.0",
+  "url": "https://github.com/tobspr-games/shapez.io/blob/master/LICENSE"
+ },
  "german_content": {
   "short_description": "shapez ist ein entspanntes, minimalistisches Fabrikbauspiel, bei dem du durch Extraktion und durchdachte Fertigungsstraßen die Herstellung von Formen automatisierst. Baue immer komplexere Formen und erweitere deine Fabrik bis ins Endlose – lass deiner Kreativität freien Lauf!",
   "categories": [
