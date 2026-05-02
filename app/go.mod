@@ -1,16 +1,16 @@
 module github.com/EngineeringKiosk/awesome-software-engineering-games
 
-go 1.25
+go 1.25.0
 
 require (
-	github.com/google/go-github/v66 v66.0.0
+	github.com/google/go-github/v85 v85.0.0
 	github.com/gosimple/slug v1.15.0
 	github.com/spf13/cobra v1.10.2
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
-	github.com/google/go-querystring v1.1.0 // indirect
+	github.com/google/go-querystring v1.2.0 // indirect
 	github.com/gosimple/unidecode v1.0.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
