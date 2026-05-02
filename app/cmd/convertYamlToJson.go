@@ -160,6 +160,8 @@ func mergeGameInformation(source, target *GameInformation) *GameInformation {
 	}
 	target.Repository = source.Repository
 	target.Programmable = source.Programmable
+	// target.License is intentionally not touched: it is enriched from the
+	// GitHub API in collectGameData and YAML is not a source of truth for it.
 
 	if source.SteamID == 0 {
 		// If there is no SteamID set, we do not have any platform or release date information.
