@@ -172,6 +172,15 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 			// Lets handle those images as normal images and copy them into the images folder.
 			if !strings.HasPrefix(gameInfo.Image, imageFolder+"/") {
 
+				// A non-Steam game (SteamID == 0) must ship a local cover image via the
+				// YAML 'image' field. Without it, filepath.Abs("") below resolves to the
+				// current working directory and CopyFile fails deep inside io.Copy with a
+				// confusing "copy_file_range: is a directory" error. Fail fast with an
+				// actionable message instead.
+				if len(gameInfo.Image) == 0 {
+					return fmt.Errorf("game %q has SteamID 0 and no local 'image' field set in YAML; add an image at games/images/<slug>.<ext> and set 'image: ../games/images/<slug>.<ext>' in the YAML", gameInfo.Name)
+				}
+
 				jsonFileExtension := path.Ext(f.Name())
 				imageFileExtension := path.Ext(gameInfo.Image)
 				imageFileName := f.Name()[0:len(f.Name())-len(jsonFileExtension)] + imageFileExtension
