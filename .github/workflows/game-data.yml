@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
   schedule:
-    - cron: "5 4 15 * *" # Run at 04:05 on day-of-month 15.
+    - cron: "0 5 2 * *" # Run at 05:00 on day-of-month 2.
 
 jobs:
   data_workflow:
