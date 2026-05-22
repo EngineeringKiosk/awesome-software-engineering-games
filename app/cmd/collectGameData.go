@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	gh "github.com/google/go-github/v86/github"
+	gh "github.com/google/go-github/v88/github"
 	"github.com/spf13/cobra"
 
 	ghutil "github.com/EngineeringKiosk/awesome-software-engineering-games/github"
@@ -64,7 +64,10 @@ func cmdCollectGameData(cmd *cobra.Command, args []string) error {
 	log.Printf("%d files found with extension %s in directory %s", len(jsonFiles), libIO.JSONExtension, jsonDir)
 
 	steamClient := steam.NewClient(nil)
-	ghClient := gh.NewClient(nil)
+	ghClient, err := gh.NewClient()
+	if err != nil {
+		return err
+	}
 
 	for _, f := range jsonFiles {
 		absJsonFilePath := filepath.Join(jsonDir, f.Name())
