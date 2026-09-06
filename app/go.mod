@@ -1,9 +1,9 @@
 module github.com/EngineeringKiosk/awesome-software-engineering-games
 
-go 1.25.0
+go 1.26.0
 
 require (
-	github.com/google/go-github/v90 v90.0.0
+	github.com/google/go-github/v91 v91.0.0
 	github.com/gosimple/slug v1.15.0
 	github.com/spf13/cobra v1.10.2
 	gopkg.in/yaml.v3 v3.0.1
