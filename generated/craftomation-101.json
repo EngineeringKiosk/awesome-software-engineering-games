@@ -10,11 +10,11 @@
  },
  "release_date": {
   "coming_soon": false,
-  "date": "Feb 19, 2024"
+  "date": "Sep 14, 2026"
  },
  "image": "images/craftomation-101.jpg",
  "german_content": {
-  "short_description": "Du landest in einer winzigen Rakete mit einem Roboter an Bord auf einem gefrorenen Planeten. Sammle und kombiniere Materialien, um neue zu entdecken. Nutze visuelle Programmierung, damit der Roboter die lästige Arbeit für dich erledigt.",
+  "short_description": "Programmiere winzige Roboter, um einen Eisplaneten in eine lebendige Welt zu verwandeln. Verbinde visuelle Codeblöcke, automatisiere die Herstellung und baue eine Crew auf, die sich selbst mit Treibstoff versorgt. Halte die Wärme am Laufen, verbessere Maschinen und erwecke deine Ideen zum Leben.",
   "categories": [
    "Einzelspieler",
    "Steam-Errungenschaften",
@@ -25,12 +25,11 @@
   "genres": [
    "Indie",
    "Simulationen",
-   "Strategie",
-   "Early Access"
+   "Strategie"
   ]
  },
  "english_content": {
-  "short_description": "You land on a frozen planet in a tiny rocket with a robot inside. Harvest and combine materials to discover new ones. Use visual programming to make the robot do the tiresome work for you. Slowly build a gang of self-sustaining robot workers and watch them terraform the planet.",
+  "short_description": "Program a crew of tiny robots to turn a frozen planet into a living world. Connect visual code blocks, automate crafting, and build a workforce that fuels itself. Keep the heat flowing, refine your machines, and watch your ideas come to life.",
   "categories": [
    "Single-player",
    "Steam Achievements",
@@ -41,8 +40,7 @@
   "genres": [
    "Indie",
    "Simulation",
-   "Strategy",
-   "Early Access"
+   "Strategy"
   ]
  }
 }

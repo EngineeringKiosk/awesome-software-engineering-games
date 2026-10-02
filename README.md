@@ -79,10 +79,10 @@ Bitburner is a programming-based incremental game. Write scripts in JavaScript t
 
 <img align="right" width="215" height="215" src="./generated/images/craftomation-101.jpg" />
 
-You land on a frozen planet in a tiny rocket with a robot inside. Harvest and combine materials to discover new ones. Use visual programming to make the robot do the tiresome work for you. Slowly build a gang of self-sustaining robot workers and watch them terraform the planet.
-* Genre: Indie, Simulation, Strategy, Early Access
+Program a crew of tiny robots to turn a frozen planet into a living world. Connect visual code blocks, automate crafting, and build a workforce that fuels itself. Keep the heat flowing, refine your machines, and watch your ideas come to life.
+* Genre: Indie, Simulation, Strategy
 * Available for <img src="./assets/windows.svg" alt="Windows" title="Windows" width="15"/> <img src="./assets/apple-os.svg" alt="macOS" title="macOS" width="15"/> <img src="./assets/linux.svg" alt="Linux" title="Linux" width="15"/>
-* Release: Monday, 19. February 2024
+* Release: Monday, 14. September 2026
 * [Website of Craftomation 101: Programming &amp; Craft](https://luden.io/craftomation/)
 * [Craftomation 101: Programming &amp; Craft @ Steam](https://store.steampowered.com/app/1724140/)
 
