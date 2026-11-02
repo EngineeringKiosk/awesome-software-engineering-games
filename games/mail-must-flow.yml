@@ -1,0 +1,31 @@
+name: Mail Must Flow
+steamID: 0
+website: https://a-kamalov781.github.io/mail-must-flow-demo/
+repository: https://github.com/a-kamalov781/mail-must-flow-demo
+programmable: true
+is_free: true
+
+# Non-Steam entry; image paths are relative to the generated directory.
+image: ../games/images/mail-must-flow.jpg
+# Desktop browser availability, not native builds. Checked through Chrome UI;
+# a separate Windows/macOS/Linux test matrix has not been performed.
+platforms:
+  windows: true
+  mac: true
+  linux: true
+release_date:
+  coming_soon: false
+  date: "Nov 1, 2026"  # First public demo, not a full-release date.
+english_content:
+  short_description: >-
+    Free early public browser demo about automating a post office. Sort mail
+    manually, then buy robots and program them in a custom Python-like language.
+    Runs in a desktop browser in English or Russian, with no installation or
+    account required.
+  genres:
+    - "Programming"
+    - "Automation"
+    - "Simulation"
+german_content:
+  short_description: ""
+  genres: []
